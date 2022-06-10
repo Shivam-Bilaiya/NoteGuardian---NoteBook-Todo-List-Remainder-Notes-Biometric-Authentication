@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notetaking">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SET_ALARM"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/snotesicon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoteTaking">
+        <activity
+            android:name=".Developer"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".Features"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".screenLock"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UserForm"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:requestLegacyExternalStorage="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AddNoteActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".MainActivity"
+            android:requestLegacyExternalStorage="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <receiver
+            android:name=".Notification_Receiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO" />
+    </application>
+
+</manifest>

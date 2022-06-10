@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#121212</color>
+    <color name="text_color">#C0C0C0</color>
+    <color name="headerTextColor">#ffffff</color>
+    <color name="noteBackgroundColor">#323232</color>
+    <color name="toolBackgroundColor">#323232</color>
+    <color name="navigationViewColor">#333131</color>
+    <color name="enableFingerprint">#FFFFFF</color>
+    <color name="restartBtn">#101820FF</color>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  android:panelFullBackground="@color/background_color">
+
+    <item
+        android:title="@string/general">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/userAccount"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="@string/user">
+
+            </item>
+
+            <item
+                android:id="@+id/userNotes"
+                android:icon="@drawable/ic_baseline_note_24"
+                android:title="@string/notes">
+
+            </item>
+
+            <item
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="@string/add_new_note"
+                >
+
+            </item>
+
+            <item
+                android:id="@+id/features"
+                android:icon="@drawable/ic_baseline_list_24"
+                android:title="@string/features">
+
+            </item>
+
+
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/settings">
+
+            </item>
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/about_us">
+
+
+        <menu>
+
+            <item android:title="@string/developer_contact"
+                android:id="@+id/developer"
+                android:icon="@drawable/ic_baseline_person_24">
+            </item>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

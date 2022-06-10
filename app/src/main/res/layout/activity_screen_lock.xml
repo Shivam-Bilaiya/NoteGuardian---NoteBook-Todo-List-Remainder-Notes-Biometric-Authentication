@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screenLock">
+
+
+    <TextView
+        android:id="@+id/HiThere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="320dp"
+        android:text="@string/hi_there"
+        android:textColor="@color/headerTextColor"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/screenLockFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/enter_first_name"
+        android:inputType="none"
+        android:autoSizeTextType="uniform"
+        android:textColor="@color/headerTextColor"
+        android:textColorHighlight="#302727"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HiThere"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/screenLockLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/enter_last_name"
+        android:inputType="none"
+        android:autoSizeTextType="uniform"
+        android:textColor="@color/headerTextColor"
+        android:textColorHighlight="#302727"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenLockFirstName"
+        tools:ignore="TouchTargetSizeCheck">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/screenLockBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="170dp"
+        android:background="@drawable/button_states"
+        android:text="@string/save_changes"
+        android:textColor="@color/headerTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenLockLastName" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="116dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/HiThere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/snotesicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
