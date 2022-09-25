@@ -35,7 +35,7 @@
     <string name="add_image">छवि जोड़ें</string>
     <string name="set_password_for_your_app">सुरक्षा</string>
     <string name="change_language">भाषा का चयन करें</string>
-    <string name="share">साझा करना</string>
+    <string name="share_us">शेयर करनाा</string>
     <string name="tip_after_change_the_language_of_app_language_will_automatically_set_in_the_whole_app">युक्ति :- ऐप की भाषा बदलने के बाद। भाषा अपने आप पूरे ऐप में सेट हो जाएगी</string>
     <string name="restart">पुनर्प्रारंभ करें</string>
     <string name="Hi">नमस्ते</string>
@@ -50,17 +50,36 @@
     <string name="setting">स्थापना</string>
     <string name="splash_screen">स्प्लैश स्क्रीन</string>
     <string name="user_profile">उपयोगकर्ता रूपरेखा</string>
-    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.यदि आप अपना डिवाइस थीम बदलते हैं तो ऐप अपने आप तदनुसार बदल जाएगा !!!</string>
-    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.यदि आप माइक्रोफ़ोन,होम जैसे निचले नेविगेशन दृश्य के घटकों का उपयोग करना चाहते हैं,तो कृपया उन पर दो बार टैप करें</string>
-    <string name="to_delete_your_note_just_swipe_them">3.अपना नोट हटाने के लिए बस उन्हें स्वाइप करें</string>
-    <string name="you_can_swipe_notes_with_each_other">4.आप एक दूसरे के साथ नोट स्वाइप कर सकते हैं</string>
-    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.अपने ऐप को सुरक्षित बनाने के लिए कृपया फ़िंगरप्रिंट प्रमाणीकरण सक्षम करें</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.यदि आप अपना डिवाइस थीम बदलते हैं तो ऐप अपने आप तदनुसार बदल जाएगा|</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.यदि आप माइक्रोफ़ोन,होम जैसे निचले नेविगेशन दृश्य के घटकों का उपयोग करना चाहते हैं,तो कृपया उन पर दो बार टैप करे|</string>
+    <string name="to_delete_your_note_just_swipe_them">3.अपना नोट हटाने के लिए बस उन्हें स्वाइप करें|</string>
+    <string name="you_can_swipe_notes_with_each_other">4.आप एक दूसरे के साथ नोट स्वाइप कर सकते हैं|</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.अपने ऐप को सुरक्षित बनाने के लिए कृपया फ़िंगरप्रिंट प्रमाणीकरण सक्षम करें|</string>
     <string name="you_can_change_the_language_of_app">6.आप ऐप की भाषा भी बदल सकते हैं।</string>
-    <string name="you_can_use_microphone_to_add_description_of_note">7.नोट का विवरण जोड़ने के लिए आप माइक्रोफ़ोन का उपयोग कर सकते हैं</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7.नोट का विवरण जोड़ने के लिए आप माइक्रोफ़ोन का उपयोग कर सकते है|</string>
     <string name="developer_contact">डेवलपर संपर्क</string>
-    <string name="version">संस्करण 2.0.1</string>
+    <string name="version">संस्करण 5.0.1</string>
     <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">यह एक अद्भुत नोट लेने वाला एप्लिकेशन है जो उपयोगकर्ताओं को अपने नोट्स बनाने में मदद करेगा।</string>
     <string name="for_any_query_and_suggestions_do_message_me">किसी भी प्रश्न और सुझाव के लिए मुझे मैसेज करे|</string>
     <string name="contact_us">संपर्क करें</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8.स्क्रीन रोटेशन पर आप सभी घटकों को देखने के लिए नीचे स्क्रॉल कर सकते हैं।</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="rate_us">हमें रेटिंग दें</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="marathi">मराठी</string>
+    <string name="bengali">बंगाली</string>
+    <string name="punjabi">पंजाबी</string>
+    <string name="tamil">तामिल</string>
+    <string name="telugu">तेलुगू</string>
+    <string name="malayalam">मलयालम</string>
+    <string name="urdu">उर्दू</string>
+    <string name="share">शेयर करना</string>
+    <string name="after_language_change_app_will_automatically_restart">भाषा बदलने के बाद ऐप अपने आप फिर से चालू हो जाएगा</string>
+    <string name="add_remainder">Add Remainder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+
 
 </resources>

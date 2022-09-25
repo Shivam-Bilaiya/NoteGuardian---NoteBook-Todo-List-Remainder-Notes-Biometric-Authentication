@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">എസ് നോട്ടുകൾ</string>
+    <string name="enter_note_title">കുറിപ്പിന്റെ പേര് നൽകുക</string>
+    <string name="enter_note_description">കുറിപ്പ് വിവരണം നൽകുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="save">രക്ഷിക്കും</string>
+    <string name="add_new_note">പുതിയ കുറിപ്പ് ചേർക്കുക</string>
+    <string name="textview">TextView</string>
+    <string name="home">വീട്</string>
+    <string name="note">കുറിപ്പ്</string>
+    <string name="screenshot">ScreenShot</string>
+    <string name="voice">ശബ്ദം</string>
+    <string name="search">Search</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="add">ചേർക്കുക</string>
+    <string name="general">ജനറൽ</string>
+    <string name="notes">കുറിപ്പുകൾ</string>
+    <string name="digilocker">DigiLocker</string>
+    <string name="likenotes">likeNotes</string>
+    <string name="features">സവിശേഷതകൾ</string>
+    <string name="about_us">ഞങ്ങളേക്കുറിച്ച്</string>
+    <string name="take_your_notes_with_you">Take Your Notes With You</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="snotes">എസ് നോട്ടുകൾ</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="welcome_to_snotes">Welcome To SNotes</string>
+    <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
+    <string name="enter_first_name">ആദ്യ നാമം നൽകുക</string>
+    <string name="enter_last_name">അവസാന നാമം നൽകുക</string>
+    <string name="photo">Photo</string>
+    <string name="create_your_notes_anywhere">എവിടെയും നിങ്ങളുടെ കുറിപ്പുകൾ സൃഷ്ടിക്കുക</string>
+    <string name="share">പങ്കിടുക</string>
+    <string name="add_image">ചിത്രം ചേർക്കുക</string>
+    <string name="enable_fingerprint">ഫിംഗർപ്രിന്റ് പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="set_password_for_your_app">സുരക്ഷ</string>
+    <string name="change_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="hello" translatable="false">HELLO</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
+    <string name="restart">പുനരാരംഭിക്കുക</string>
+    <string name="Hi">ഹായ്</string>
+    <string name="tip_keep_your_fingerprint_protective_shield_onn_to_protect_your_notes">നുറുങ്ങ് :- നിങ്ങളല്ലാതെ മറ്റാർക്കും നിങ്ങളുടെ കുറിപ്പുകൾ ആക്‌സസ് ചെയ്യാൻ കഴിയില്ലെന്ന് ഉറപ്പാക്കാൻ ഫിംഗർപ്രിന്റ് സംരക്ഷണ കവചം സജീവമാക്കുക.</string>
+    <string name="tip_after_change_the_language_of_app_language_will_automatically_set_in_the_whole_app">നുറുങ്ങ്:- ആപ്പിന്റെ ഭാഷ മാറ്റിയ ശേഷം. മുഴുവൻ ആപ്പിലും ഭാഷ സ്വയമേവ സജ്ജമാകും.</string>
+    <string name="tip_after_change_your_language_please_restart_app">നുറുങ്ങ്:- നിങ്ങളുടെ ഭാഷ മാറ്റിയതിന് ശേഷം ദയവായി ആപ്പ് പുനരാരംഭിക്കുക.</string>
+    <string name="user">ഉപയോക്താവ്</string>
+    <string name="sign_up_to_your_account">നിങ്ങളുടെ അക്കൗണ്ടിലേക്ക് സൈൻ അപ്പ് ചെയ്യുക</string>
+    <string name="save_changes">രക്ഷിക്കും</string>
+    <string name="hi_there">ഹേയ്, അവിടെയുണ്ടോ !!!</string>
+    <string name="search_your_note">നിങ്ങളുടെ കുറിപ്പ് തിരയുക</string>
+    <string name="update_note">അപ്ഡേറ്റ് കുറിപ്പ്</string>
+    <string name="setting">ക്രമീകരണം</string>
+    <string name="splash_screen">സ്പ്ലാഷ് സ്ക്രീൻ</string>
+    <string name="user_profile">ഉപയോക്തൃ പ്രൊഫൈൽ</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.നിങ്ങൾ നിങ്ങളുടെ ഉപകരണ തീം മാറ്റുകയാണെങ്കിൽ അതിനനുസരിച്ച് സ്വയമേവ മാറും.</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.മൈക്രോഫോൺ, ഹോം തുടങ്ങിയ താഴെയുള്ള നാവിഗേഷൻ കാഴ്‌ചയുടെ ഘടകങ്ങൾ ആക്‌സസ് ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, ദയവായി അവയിൽ രണ്ടുതവണ ടാപ്പുചെയ്യുക.</string>
+    <string name="to_delete_your_note_just_swipe_them">3.നിങ്ങളുടെ കുറിപ്പ് ഇല്ലാതാക്കാൻ അവ സ്വൈപ്പ് ചെയ്യുക.</string>
+    <string name="you_can_swipe_notes_with_each_other">4. നിങ്ങൾക്ക് പരസ്പരം കുറിപ്പുകൾ സ്വൈപ്പ് ചെയ്യാം.</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.നിങ്ങളുടെ ആപ്പ് സുരക്ഷിതമാക്കാൻ ഫിംഗർപ്രിന്റ് പ്രാമാണീകരണം പ്രവർത്തനക്ഷമമാക്കുക.</string>
+    <string name="you_can_change_the_language_of_app">6.നിങ്ങൾക്ക് ആപ്പിന്റെ ഭാഷ മാറ്റാം.</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7. കുറിപ്പിന്റെ വിവരണം ചേർക്കാൻ നിങ്ങൾക്ക് മൈക്രോഫോൺ ഉപയോഗിക്കാം.</string>
+    <string name="developer_contact">ഡെവലപ്പർ കോൺടാക്റ്റ്</string>
+    <string name="version">പതിപ്പ് 5.0.1</string>
+    <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">ഉപയോക്താക്കളെ അവരുടെ കുറിപ്പുകൾ സൃഷ്‌ടിക്കാൻ സഹായിക്കുന്ന അതിശയകരമായ കുറിപ്പ് എടുക്കൽ ആപ്ലിക്കേഷനാണിത്.</string>
+    <string name="for_any_query_and_suggestions_do_message_me">ഏത് ചോദ്യത്തിനും നിർദ്ദേശങ്ങൾക്കും എനിക്ക് മെസ്സേജ് ചെയ്യുക.</string>
+    <string name="contact_us">Contact Me</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8.സ്ക്രീൻ റൊട്ടേഷനിൽ നിങ്ങൾക്ക് എല്ലാ ഘടകങ്ങളും കാണുന്നതിന് താഴേക്ക് സ്ക്രോൾ ചെയ്യാം.</string>
+    <string name="privacy_policy">സ്വകാര്യതാ നയം</string>
+    <string name="rate_us">ഞങ്ങളെ റേറ്റുചെയ്യുക</string>
+    <string name="english">ഇംഗ്ലീഷ്</string>
+    <string name="hindi">ഹിന്ദി</string>
+    <string name="share_us">ഞങ്ങളെ പങ്കിടുക</string>
+    <string name="marathi">മറാത്തി</string>
+    <string name="bengali">ബംഗാളി</string>
+    <string name="punjabi">പഞ്ചാബി</string>
+    <string name="tamil">തമിഴ്</string>
+    <string name="telugu">തെലുങ്ക്</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="urdu">ഉർദു</string>
+    <string name="after_language_change_app_will_automatically_restart">ഭാഷ മാറ്റത്തിന് ശേഷം ആപ്പ് സ്വയമേവ പുനരാരംഭിക്കും</string>
+    <string name="add_remainder">Add Remainder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+
+</resources>

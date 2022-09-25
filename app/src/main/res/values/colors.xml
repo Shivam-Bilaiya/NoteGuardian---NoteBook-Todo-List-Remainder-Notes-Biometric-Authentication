@@ -7,20 +7,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="purple">#673AB7</color>
     <color name="white">#FFFFFFFF</color>
-
-
-
-
-
-
     <color name="background_color">#F5F5F5</color>
     <color name="text_color">#121212</color>
     <color name="noteBackgroundColor">#FCF6F5FF</color>
-    <color name="toolBackgroundColor">#7B7171</color>
+    <color name="toolBackgroundColor">#242B2E</color>
     <color name="navigationViewColor">#F5F5F5</color>
     <color name="headerTextColor">#121212</color>
     <color name="enableFingerprint">#433B3B</color>
     <color name="restartBtn">#F0E1B9FF</color>
+    <color name="progressbar">#121212</color>
+    <color name="color1">#31AEE4</color>
+    <color name="color2">#F8CF2C</color>
+    <color name="color3">#4CAF50</color>
+    <color name="color4">#03A6A6</color>
+    <color name="color5">#D0E3FF</color>
+
+
 
 
 </resources>

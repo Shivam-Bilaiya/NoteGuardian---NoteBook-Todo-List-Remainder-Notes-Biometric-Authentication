@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<menu xmlns:android="http://schemas.android.com/apk/res/android"  android:panelFullBackground="@color/background_color">
-
-    <item
-        android:title="@string/general">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:panelFullBackground="@color/background_color">
+    <item android:title="@string/general">
         <menu>
-
-
             <item
                 android:id="@+id/userAccount"
                 android:icon="@drawable/ic_baseline_person_24"
                 android:title="@string/user">
-
             </item>
-
             <item
                 android:id="@+id/userNotes"
                 android:icon="@drawable/ic_baseline_note_24"
                 android:title="@string/notes">
-
             </item>
-
             <item
                 android:id="@+id/addNote"
                 android:icon="@drawable/ic_baseline_add_24"
-                android:title="@string/add_new_note"
-                >
-
+                android:title="@string/add_new_note">
             </item>
 
+            <item android:id="@+id/remainderActivity"
+                android:icon="@drawable/ic_baseline_alarm_add_24"
+                android:title="@string/add_remainder">
+            </item>
             <item
                 android:id="@+id/features"
                 android:icon="@drawable/ic_baseline_list_24"
                 android:title="@string/features">
-
             </item>
-
-
             <item
                 android:id="@+id/setting"
                 android:icon="@drawable/ic_baseline_settings_24"
                 android:title="@string/settings">
-
             </item>
-
-
         </menu>
     </item>
-
     <item android:title="@string/about_us">
-
-
         <menu>
-
-            <item android:title="@string/developer_contact"
-                android:id="@+id/developer"
-                android:icon="@drawable/ic_baseline_person_24">
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/ic_baseline_policy_24"
+                android:title="@string/privacy_policy">
             </item>
-
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="@string/developer_contact">
+            </item>
+            <item
+                android:id="@+id/shareUs"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/share_us">
+            </item>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                android:title="@string/rate_us">
+            </item>
         </menu>
-
-
     </item>
-
-
 </menu>

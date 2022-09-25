@@ -5,65 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
+    android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context=".AddNoteActivity"
-    android:background="@color/background_color">
-
+    tools:context="my.app.snotes.AddNoteActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <EditText
                 android:id="@+id/editTextTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
+                android:layout_marginBottom="10dp"
                 android:autoSizeTextType="uniform"
+                android:ems="10"
                 android:hint="@string/enter_note_title"
                 android:inputType="textPersonName"
-                android:textSize="40sp"
                 android:textColor="@color/headerTextColor"
-                android:layout_marginBottom="10dp"
-                android:textStyle="bold"
-                />
-
+                android:textSize="40sp"
+                android:textStyle="bold" />
             <EditText
                 android:id="@+id/editTextDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:autoSizeTextType="uniform"
+                android:ems="10"
                 android:gravity="start|top"
-                android:textSize="35sp"
                 android:hint="@string/enter_note_description"
                 android:inputType="textMultiLine"
                 android:minHeight="48dp"
-                android:textColor="@color/headerTextColor" />
-
+                android:textColor="@color/headerTextColor"
+                android:textSize="35sp" />
             <ImageView
+                android:id="@+id/addImageNote"
                 android:layout_width="match_parent"
                 android:layout_height="500dp"
-                android:id="@+id/addImageNote"
                 android:layout_marginTop="20dp"
                 android:scaleType="centerCrop">
-
             </ImageView>
-
-
-
-
         </LinearLayout>
-
     </ScrollView>
-
-
 
 
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -73,8 +59,8 @@
         android:layout_gravity="bottom"
         app:fabCradleMargin="10dp"
         app:fabCradleRoundedCornerRadius="20dp"
-        app:fabCradleVerticalOffset="10dp">
-
+        app:fabCradleVerticalOffset="10dp"
+        app:hideOnScroll="true">
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
@@ -83,18 +69,15 @@
             android:background="@android:color/transparent"
             app:menu="@menu/bottom_navigation" />
     </com.google.android.material.bottomappbar.BottomAppBar>
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/saveBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_done_24"
         app:layout_anchor="@id/bottomAppBar"
-        app:tint="@color/white"
-        app:maxImageSize="40sp">
-
+        app:maxImageSize="40sp"
+        app:tint="@color/white">
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 

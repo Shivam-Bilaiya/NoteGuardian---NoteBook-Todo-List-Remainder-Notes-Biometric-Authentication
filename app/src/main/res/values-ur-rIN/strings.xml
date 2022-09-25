@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نوٹس</string>
+    <string name="enter_note_title">نوٹ کا عنوان درج کریں۔</string>
+    <string name="enter_note_description">نوٹ کی تفصیل درج کریں۔</string>
+    <string name="cancel">منسوخ کریں۔</string>
+    <string name="save">محفوظ کریں۔</string>
+    <string name="add_new_note">نیا نوٹ شامل کریں۔</string>
+    <string name="textview">TextView</string>
+    <string name="home">گھر</string>
+    <string name="note">نوٹ</string>
+    <string name="screenshot">ScreenShot</string>
+    <string name="voice">آواز</string>
+    <string name="search">Search</string>
+    <string name="settings">ترتیبات</string>
+    <string name="add">شامل کریں۔</string>
+    <string name="general">جنرل</string>
+    <string name="notes">نوٹس</string>
+    <string name="digilocker">DigiLocker</string>
+    <string name="likenotes">likeNotes</string>
+    <string name="features">خصوصیات</string>
+    <string name="about_us">ہمارے بارے میں</string>
+    <string name="take_your_notes_with_you">Take Your Notes With You</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="snotes">نوٹس</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="welcome_to_snotes">Welcome To SNotes</string>
+    <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
+    <string name="enter_first_name">پہلا نام درج کریں۔</string>
+    <string name="enter_last_name">آخری نام درج کریں۔</string>
+    <string name="photo">Photo</string>
+    <string name="create_your_notes_anywhere">کہیں بھی اپنے نوٹ بنائیں</string>
+    <string name="share">بانٹیں</string>
+    <string name="add_image">تصویر شامل کریں۔</string>
+    <string name="enable_fingerprint">فنگر پرنٹ کو فعال کریں۔</string>
+    <string name="set_password_for_your_app">سیکورٹی</string>
+    <string name="change_language">زبان منتخب کریں۔</string>
+    <string name="hello" translatable="false">HELLO</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
+    <string name="restart">دوبارہ شروع کریں</string>
+    <string name="Hi">ہائے</string>
+    <string name="tip_keep_your_fingerprint_protective_shield_onn_to_protect_your_notes">ٹپ:- فنگر پرنٹ حفاظتی شیلڈ کو فعال کریں تاکہ یہ یقینی بنایا جا سکے کہ آپ کے علاوہ کوئی بھی آپ کے نوٹس تک رسائی حاصل نہیں کر سکتا۔</string>
+    <string name="tip_after_change_the_language_of_app_language_will_automatically_set_in_the_whole_app">ٹپ:- ایپ کی زبان تبدیل کرنے کے بعد۔ پوری ایپ میں زبان خود بخود سیٹ ہو جائے گی۔</string>
+    <string name="tip_after_change_your_language_please_restart_app">ٹپ:- اپنی زبان تبدیل کرنے کے بعد ایپ کو دوبارہ شروع کریں۔</string>
+    <string name="user">صارف</string>
+    <string name="sign_up_to_your_account">اپنے اکاؤنٹ میں سائن اپ کریں۔</string>
+    <string name="save_changes">محفوظ کریں۔</string>
+    <string name="hi_there">ہیلو وہاں !!!</string>
+    <string name="search_your_note">اپنا نوٹ تلاش کریں۔</string>
+    <string name="update_note">اپڈیٹ نوٹ</string>
+    <string name="setting">ترتیب</string>
+    <string name="splash_screen">سپلیش اسکرین</string>
+    <string name="user_profile">صارف پروفائل</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1. اگر آپ اپنے آلے کو تبدیل کرتے ہیں تو تھیم ایپ خود بخود اس کے مطابق بدل جائے گی۔</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2. اگر آپ نیچے نیویگیشن ویو کے اجزاء جیسے مائیکروفون تک رسائی حاصل کرنا چاہتے ہیں، تو گھر براہ کرم ان پر دو بار تھپتھپائیں۔</string>
+    <string name="to_delete_your_note_just_swipe_them">3. اپنے نوٹ کو حذف کرنے کے لیے صرف انہیں سوائپ کریں۔</string>
+    <string name="you_can_swipe_notes_with_each_other">4. آپ ایک دوسرے کے ساتھ نوٹ سوائپ کر سکتے ہیں۔</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5. اپنی ایپ کو محفوظ بنانے کے لیے براہ کرم فنگر پرنٹ کی تصدیق کو فعال کریں۔</string>
+    <string name="you_can_change_the_language_of_app">6. آپ ایپ کی زبان تبدیل کر سکتے ہیں۔</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7. آپ نوٹ کی تفصیل شامل کرنے کے لیے مائیکروفون استعمال کر سکتے ہیں۔</string>
+    <string name="developer_contact">ڈویلپر سے رابطہ کریں۔</string>
+    <string name="version"> 5.0.1ورژن</string>
+    <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">یہ نوٹ لینے کی ایک حیرت انگیز ایپلی کیشن ہے جو صارفین کو اپنے نوٹ بنانے میں مدد دے گی۔</string>
+    <string name="for_any_query_and_suggestions_do_message_me">کسی بھی سوال اور مشورے کے لیے مجھے میسج کریں۔</string>
+    <string name="contact_us">مجھ سے رابطہ کریں</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8. اسکرین کی گردش پر آپ تمام اجزاء کو دیکھنے کے لیے نیچے سکرول کر سکتے ہیں۔</string>
+    <string name="privacy_policy">رازداری کی پالیسی</string>
+    <string name="rate_us">ہمیں درجہ دیں۔</string>
+    <string name="english">انگریزی</string>
+    <string name="hindi">ہندی</string>
+    <string name="share_us">ہمیں شیئر کریں۔</string>
+    <string name="marathi">مراٹھی</string>
+    <string name="bengali">بنگالی</string>
+    <string name="punjabi">پنجابی</string>
+    <string name="tamil">تامل</string>
+    <string name="telugu">تیلگو</string>
+    <string name="malayalam">ملیالم</string>
+    <string name="urdu">اردو</string>
+    <string name="after_language_change_app_will_automatically_restart">زبان کی تبدیلی کے بعد ایپ خود بخود دوبارہ شروع ہو جائے گی۔</string>
+    <string name="add_remainder">Add Remainder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+
+</resources>

@@ -4,36 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context=".AddNoteActivity"
-    android:background="@color/background_color">
-
-
-
+    tools:context="my.app.snotes.AddNoteActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
         android:scrollbars="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
+                android:autoSizeMaxTextSize="@dimen/_100sdp"
+                android:autoSizeMinTextSize="@dimen/_10sdp"
+                android:autoSizeTextType="uniform"
                 android:ems="10"
                 android:hint="@string/enter_note_title"
-                android:inputType="textPersonName"
+                android:inputType="textMultiLine"
                 android:textColor="@color/headerTextColor"
                 android:textSize="25sp"
                 android:textStyle="bold" />
-
             <EditText
                 android:id="@+id/editTextDescription"
                 android:layout_width="match_parent"
@@ -46,49 +42,55 @@
                 android:textColor="@color/headerTextColor" />
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
                 android:id="@+id/addImageNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:scaleType="centerCrop">
 
             </ImageView>
 
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_new_note">
+
+            </com.google.android.material.checkbox.MaterialCheckBox>
+
 
         </LinearLayout>
 
+
     </ScrollView>
-
-
-
-
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:clickable="true"
         app:fabCradleMargin="10dp"
         app:fabCradleRoundedCornerRadius="20dp"
-        app:fabCradleVerticalOffset="10dp">
-
+        app:fabCradleVerticalOffset="10dp"
+        app:hideOnScroll="true">
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
             android:background="@android:color/transparent"
+            android:clickable="true"
             app:menu="@menu/bottom_navigation" />
     </com.google.android.material.bottomappbar.BottomAppBar>
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/saveBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_done_24"
         app:layout_anchor="@id/bottomAppBar"
-        app:tint="@color/white">
-
+        app:tint="@color/white"
+        android:contentDescription="@string/add_new_note">
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

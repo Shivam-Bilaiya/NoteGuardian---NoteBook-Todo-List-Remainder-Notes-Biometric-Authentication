@@ -3,42 +3,52 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/alarm.xml" value="0.175" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/big_tail.xml" value="0.2265" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/big_thumb.xml" value="0.2265" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/button_states.xml" value="0.2215" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/circle.xml" value="0.175" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/custom_switch.xml" value="0.248" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.248" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.175" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.248" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.2215" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.175" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/round_button.xml" value="0.128" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/round_image.xml" value="0.2405" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/rounded.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/roundedtext.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/shadow.xml" value="0.175" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/thump_part_of_switch_button.xml" value="0.2215" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/drawable/track_part_of_switch_button.xml" value="0.2215" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/font/arbutus.xml" value="0.1731815932706581" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-hdpi/activity_add_note.xml" value="0.18209408194233687" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-land/activity_screen_lock.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-land/activity_user_form.xml" value="0.20307823856348867" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large-v31/activity_developer.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_add_note.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_developer.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_main.xml" value="0.2" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_screen_lock.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_screen_lock.xml" value="0.6" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_setting.xml" value="0.20521590423257802" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_splash_screen.xml" value="0.1902497027348395" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_splash_screen.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_update.xml" value="0.1" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_user_form.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/activity_user_form.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/header.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/navigation_drawer.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-large/note_item.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-mdpi/activity_add_note.xml" value="0.18209408194233687" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_add_note.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_add_note.xml" value="0.176" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_developer.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_main.xml" value="0.2" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_screen_lock.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_screen_lock.xml" value="0.536" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_setting.xml" value="0.20521590423257802" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_splash_screen.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_splash_screen.xml" value="0.176" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_update.xml" value="0.2" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_user_form.xml" value="0.20521590423257802" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/header.xml" value="0.264" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/navigation_drawer.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/activity_user_form.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/header.xml" value="0.8" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/navigation_drawer.xml" value="0.3782991202346041" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-normal/note_item.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-small/activity_add_note.xml" value="0.24666666666666667" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-small/activity_main.xml" value="0.176" />
@@ -51,35 +61,46 @@
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-small/navigation_drawer.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-small/note_item.xml" value="0.8800000000000001" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-sw600dp/activity_screen_lock.xml" value="0.176" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_add_note.xml" value="0.4" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_developer.xml" value="0.3734375" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-v28/note_item.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_add_note.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_developer.xml" value="0.3392857142857143" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_main.xml" value="0.136" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_screen_lock.xml" value="0.16" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_setting.xml" value="0.4" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_splash_screen.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_screen_lock.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_setting.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_splash_screen.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_update.xml" value="0.1" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_user_form.xml" value="0.10598958333333333" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/activity_user_form.xml" value="0.1875" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/header.xml" value="0.125" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/navigation_drawer.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/navigation_drawer.xml" value="0.12" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout-xlarge/note_item.xml" value="0.125" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_add_note.xml" value="0.152" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_developer.xml" value="0.1875" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_add_note.xml" value="0.6145374449339207" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_developer.xml" value="1.2" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_digi_locker.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_features.xml" value="0.1875" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_main.xml" value="0.152" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_screen_lock.xml" value="0.152" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_setting.xml" value="0.152" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_splash_screen.xml" value="0.152" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_update.xml" value="1.0462555066079295" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_user_form.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_remainder_notes.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_remainders.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_schedule_notifications.xml" value="0.1936725096194955" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_screen_lock.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_setting.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_show_future_task.xml" value="0.1936725096194955" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_splash_screen.xml" value="0.8" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_update.xml" value="0.6417112299465241" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_update_remainder.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/activity_user_form.xml" value="1.2666666666666666" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/fragment_user.xml" value="0.25" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/header.xml" value="0.2" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/navigation_drawer.xml" value="0.4" />
-        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/note_item.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/header.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/navigation_drawer.xml" value="0.8" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/note_card.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/note_item.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/layout/task_item.xml" value="0.20436083796494228" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu-v26/new_menu.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu/language_pop_menu.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu/nav_menu.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu/new_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu/pin_pop_up.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/menu/upper_toolbar.xml" value="0.20521590423257802" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/xml/provider_paths.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NoteTaking/app/src/main/res/xml/shortcuts.xml" value="0.25" />
       </map>

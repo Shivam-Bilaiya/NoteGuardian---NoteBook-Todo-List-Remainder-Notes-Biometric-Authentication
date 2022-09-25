@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.notetaking">
+    package="my.app.snotes">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    <uses-permission android:name="android.permission.SET_ALARM"></uses-permission>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/snotesicon"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/snotesicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.NoteTaking">
         <activity
+            android:name=".UpdateRemainder"
+            android:exported="false" />
+        <activity
+            android:name=".RemainderNotes"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Remainders"
+            android:exported="false"
+            android:parentActivityName=".RemainderNotes" />
+        <activity
             android:name=".Developer"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Features"
             android:exported="false"
@@ -44,10 +54,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="android.app.shortcuts"
-                android:resource="@xml/shortcuts" />
         </activity>
         <activity
             android:name=".UpdateActivity"
@@ -58,19 +64,38 @@
         <activity
             android:name=".AddNoteActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustPan"
             android:parentActivityName=".MainActivity"
-            android:requestLegacyExternalStorage="true" />
+            android:requestLegacyExternalStorage="true"
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <receiver
-            android:name=".Notification_Receiver"
+            android:name=".AlarmNotification"
             android:enabled="true"
-            android:exported="true"
             android:permission="TODO" />
+
+      <receiver android:name=".MyAlarmReceiver"
+          android:enabled="true"
+          android:permission="TODO">
+
+      </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
     </application>
 
 </manifest>

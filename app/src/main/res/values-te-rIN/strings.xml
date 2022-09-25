@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">గమనికలు</string>
+    <string name="enter_note_title">గమనిక శీర్షికను నమోదు చేయండి</string>
+    <string name="enter_note_description">గమనిక వివరణను నమోదు చేయండి</string>
+    <string name="cancel">రద్దు చేయండి</string>
+    <string name="save">సేవ్ చేయండి</string>
+    <string name="add_new_note">కొత్త గమనికను జోడించండి</string>
+    <string name="textview">TextView</string>
+    <string name="home">హోమ్</string>
+    <string name="note">గమనిక</string>
+    <string name="screenshot">ScreenShot</string>
+    <string name="voice">వాయిస్</string>
+    <string name="search">Search</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="add">జోడించు</string>
+    <string name="general">జనరల్</string>
+    <string name="notes">గమనికలు</string>
+    <string name="digilocker">DigiLocker</string>
+    <string name="likenotes">likeNotes</string>
+    <string name="features">లక్షణాలు</string>
+    <string name="about_us">మా గురించి</string>
+    <string name="take_your_notes_with_you">Take Your Notes With You</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="snotes">గమనికలు</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="welcome_to_snotes">Welcome To SNotes</string>
+    <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
+    <string name="enter_first_name">మొదటి పేరును నమోదు చేయండి</string>
+    <string name="enter_last_name">చివరి పేరును నమోదు చేయండి</string>
+    <string name="photo">Photo</string>
+    <string name="create_your_notes_anywhere">ఎక్కడైనా మీ గమనికలను సృష్టించండి</string>
+    <string name="share">షేర్ చేయండి</string>
+    <string name="add_image">చిత్రాన్ని జోడించండి</string>
+    <string name="enable_fingerprint">వేలిముద్రను ప్రారంభించండి</string>
+    <string name="set_password_for_your_app">భద్రత</string>
+    <string name="change_language">భాషను ఎంచుకోండి</string>
+    <string name="hello" translatable="false">HELLO</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
+    <string name="restart">పునఃప్రారంభించండి</string>
+    <string name="Hi">హాయ్</string>
+    <string name="tip_keep_your_fingerprint_protective_shield_onn_to_protect_your_notes">చిట్కా :- మీరు తప్ప మరెవరూ మీ గమనికలను యాక్సెస్ చేయలేరని నిర్ధారించుకోవడానికి వేలిముద్ర రక్షణ కవచాన్ని సక్రియం చేయండి.</string>
+    <string name="tip_after_change_the_language_of_app_language_will_automatically_set_in_the_whole_app">చిట్కా:- యాప్ భాషను మార్చిన తర్వాత. మొత్తం యాప్‌లో భాష స్వయంచాలకంగా సెట్ చేయబడుతుంది.</string>
+    <string name="tip_after_change_your_language_please_restart_app">చిట్కా:- మీ భాషను మార్చిన తర్వాత దయచేసి యాప్‌ని పునఃప్రారంభించండి.</string>
+    <string name="user">వినియోగదారు</string>
+    <string name="sign_up_to_your_account">మీ ఖాతాకు సైన్ అప్ చేయండి</string>
+    <string name="save_changes">సేవ్ చేయండి</string>
+    <string name="hi_there">హాయ్ !!!</string>
+    <string name="search_your_note">మీ గమనికను శోధించండి</string>
+    <string name="update_note">గమనికను నవీకరించండి</string>
+    <string name="setting">అమరిక</string>
+    <string name="splash_screen">స్ప్లాష్ స్క్రీన్</string>
+    <string name="user_profile">వినియోగదారు వివరాలు</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.మీరు మీ పరికర థీమ్‌ను మార్చినట్లయితే, దాని ప్రకారం యాప్ స్వయంచాలకంగా మారుతుంది.</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.మీరు మైక్రోఫోన్, హోమ్ వంటి దిగువ నావిగేషన్ వీక్షణలోని భాగాలను యాక్సెస్ చేయాలనుకుంటే, దయచేసి వాటిపై రెండుసార్లు నొక్కండి.</string>
+    <string name="to_delete_your_note_just_swipe_them">3.మీ గమనికను తొలగించడానికి వాటిని స్వైప్ చేయండి.</string>
+    <string name="you_can_swipe_notes_with_each_other">4.మీరు గమనికలను ఒకదానితో ఒకటి స్వైప్ చేయవచ్చు.</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.మీ యాప్‌ను సురక్షితంగా చేయడానికి దయచేసి వేలిముద్ర ప్రమాణీకరణను ప్రారంభించండి.</string>
+    <string name="you_can_change_the_language_of_app">6.మీరు యాప్ భాషను మార్చవచ్చు.</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7. మీరు గమనిక యొక్క వివరణను జోడించడానికి మైక్రోఫోన్‌ని ఉపయోగించవచ్చు.</string>
+    <string name="developer_contact">డెవలపర్ సంప్రదించండి</string>
+    <string name="version">సంస్కరణ 5.0.1</string>
+    <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">ఇది అద్భుతమైన నోట్ టేకింగ్ అప్లికేషన్, ఇది వినియోగదారులకు వారి గమనికలను రూపొందించడంలో సహాయపడుతుంది.</string>
+    <string name="for_any_query_and_suggestions_do_message_me">ఏదైనా ప్రశ్న మరియు సూచనల కోసం నాకు మెసేజ్ చేయండి.</string>
+    <string name="contact_us">నన్ను సంప్రదించండి</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8.స్క్రీన్ రొటేషన్‌పై మీరు అన్ని భాగాలను చూడటానికి క్రిందికి స్క్రోల్ చేయవచ్చు.</string>
+    <string name="privacy_policy">గోప్యతా విధానం</string>
+    <string name="rate_us">గోప్యతా విధానం</string>
+    <string name="english">ఆంగ్ల</string>
+    <string name="hindi">హిందీ</string>
+    <string name="share_us">మమ్మల్ని భాగస్వామ్యం చేయండి</string>
+    <string name="marathi">మరాఠీ</string>
+    <string name="bengali">బెంగాలీ</string>
+    <string name="punjabi">పంజాబీ</string>
+    <string name="tamil">తమిళం</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="malayalam">మలయాళం</string>
+    <string name="urdu">ఉర్దూ</string>
+    <string name="after_language_change_app_will_automatically_restart">భాష మార్చిన తర్వాత యాప్ ఆటోమేటిక్‌గా రీస్టార్ట్ అవుతుంది</string>
+    <string name="add_remainder">Add Remainder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+
+</resources>

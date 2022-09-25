@@ -4,92 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Features"
-    android:background="@color/background_color">
-
-
+    android:background="@color/background_color"
+    tools:context="my.app.snotes.Features">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="15dp"
-        >
-
+        android:padding="15dp">
         <TextView
             android:id="@+id/first"
-            android:layout_width="match_parent"
-            android:textColor="@color/headerTextColor"
             style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/if_you_change_your_device_theme_app_will_automatically_change_accordingly" />
-
+            android:text="@string/if_you_change_your_device_theme_app_will_automatically_change_accordingly"
+            android:textColor="@color/headerTextColor" />
         <TextView
             android:id="@+id/textView3"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/headerTextColor"
-            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_margin="10dp"
-            android:text="@string/if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them" />
-
+            android:text="@string/if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them"
+            android:textColor="@color/headerTextColor" />
         <TextView
             android:id="@+id/textView6"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/headerTextColor"
             android:layout_margin="10dp"
-            style="@android:style/TextAppearance.DeviceDefault.Medium"
-            android:text="@string/to_delete_your_note_just_swipe_them" />
-
+            android:text="@string/to_delete_your_note_just_swipe_them"
+            android:textColor="@color/headerTextColor" />
         <TextView
             android:id="@+id/textView7"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/headerTextColor"
-            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_margin="10dp"
-            android:text="@string/you_can_swipe_notes_with_each_other" />
-
+            android:text="@string/you_can_swipe_notes_with_each_other"
+            android:textColor="@color/headerTextColor" />
         <TextView
             android:id="@+id/textView8"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/headerTextColor"
-            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_margin="10dp"
-            android:text="@string/to_make_your_app_secure_please_enable_fingerprint_authentication" />
-
+            android:text="@string/to_make_your_app_secure_please_enable_fingerprint_authentication"
+            android:textColor="@color/headerTextColor" />
         <TextView
             android:id="@+id/textView9"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/you_can_change_the_language_of_app"
-            android:textColor="@color/headerTextColor"
             android:layout_margin="10dp"
-            style="@android:style/TextAppearance.DeviceDefault.Medium"/>
-
+            android:text="@string/you_can_change_the_language_of_app"
+            android:textColor="@color/headerTextColor" />
         <TextView
             android:id="@+id/textView10"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/you_can_use_microphone_to_add_description_of_note"
-            android:textColor="@color/headerTextColor"
             android:layout_margin="10dp"
-            style="@android:style/TextAppearance.DeviceDefault.Medium"/>
-
+            android:text="@string/you_can_use_microphone_to_add_description_of_note"
+            android:textColor="@color/headerTextColor" />
+        <TextView
+            android:id="@+id/textView50"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/on_screen_rotation_you_can_scroll_down_to_see_all_components"
+            android:textColor="@color/headerTextColor" />
     </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </ScrollView>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SNotes</string>
     <string name="enter_note_title">Enter Note Title</string>
@@ -24,9 +25,9 @@
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="snotes">SNOTES</string>
-    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_date_of_birth" translatable="false">Enter Date Of Birth</string>
     <string name="enter_your_name">Enter Your Name</string>
-    <string name="welcome_to_snotes">Welcome To SNotes</string>
+    <string name="welcome_to_snotes" translatable="false">Welcome To SNotes</string>
     <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
     <string name="enter_first_name">Enter First Name</string>
     <string name="enter_last_name">Enter Last Name</string>
@@ -53,27 +54,36 @@
     <string name="setting">Setting</string>
     <string name="splash_screen">Splash Screen</string>
     <string name="user_profile">User Profile</string>
-    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.If you change your device theme app will automatically change accordingly!!!</string>
-    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.If you want to access components of bottom navigation view like microphone,home please double tap on them</string>
-    <string name="to_delete_your_note_just_swipe_them">3.To delete your note just swipe them</string>
-    <string name="you_can_swipe_notes_with_each_other">4.You can swipe notes with each other</string>
-    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.To make your app secure please enable fingerprint authentication</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.If you change your device theme app will automatically change accordingly.</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.If you want to access components of bottom navigation view like microphone,home please double tap on them.</string>
+    <string name="to_delete_your_note_just_swipe_them">3.To delete your note just swipe them.</string>
+    <string name="you_can_swipe_notes_with_each_other">4.You can swipe notes with each other.</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.To make your app secure please enable fingerprint authentication.</string>
     <string name="you_can_change_the_language_of_app">6.You can change the language of app.</string>
-    <string name="you_can_use_microphone_to_add_description_of_note">7.You can use microphone to add description of note</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7.You can use microphone to add description of note.</string>
     <string name="developer_contact">Developer Contact</string>
-    <string name="version">Version 2.0.1</string>
+    <string name="version">Version 5.0.1</string>
     <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">This is an amazing note taking application which will help users to create their notes.</string>
     <string name="for_any_query_and_suggestions_do_message_me">For any query and suggestions do message me.</string>
-    <string name="contact_us">Contact Us</string>
-
-
-    <string-array name="Language">
-
-        <item>English</item>
-        <item>Hindi</item>
-        <item>Chinese</item>
-        <item>Russian</item>
-    </string-array>
+    <string name="contact_us">Contact Me</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8.On screen rotation you can scroll down to see all components.</string>
+    <string name="privacy_policy">privacy Policy</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="share_us">Share Us</string>
+    <string name="marathi">Marathi</string>
+    <string name="bengali">Bengali</string>
+    <string name="punjabi">Punjabi</string>
+    <string name="tamil">Tamil</string>
+    <string name="telugu">Telugu</string>
+    <string name="malayalam">malayalam</string>
+    <string name="urdu">Urdu</string>
+    <string name="after_language_change_app_will_automatically_restart">After language change app will automatically restart</string>
+    <string name="add_remainder">Remainders</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
 
 
 </resources>

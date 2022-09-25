@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਸਨੋਟ</string>
+    <string name="enter_note_title">ਨੋਟ ਟਾਈਟਲ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_note_description">ਨੋਟ ਵਰਣਨ ਦਰਜ ਕਰੋ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="save">ਸੇਵ ਕਰੋ</string>
+    <string name="add_new_note">ਨਵਾਂ ਨੋਟ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="textview">ਟੈਕਸਟਵਿਊ</string>
+    <string name="home">ਘਰ</string>
+    <string name="note">ਨੋਟ ਕਰੋ</string>
+    <string name="screenshot">ScreenShot</string>
+    <string name="voice">ਆਵਾਜ਼</string>
+    <string name="search">Search</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="add">ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="general">ਜਨਰਲ</string>
+    <string name="notes">ਨੋਟਸ</string>
+    <string name="digilocker">DigiLocker</string>
+    <string name="likenotes">likeNotes</string>
+    <string name="features">ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
+    <string name="about_us">ਸਾਡੇ ਬਾਰੇ</string>
+    <string name="take_your_notes_with_you">Take Your Notes With You</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="snotes">ਸਨੋਟ</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="welcome_to_snotes">Welcome To SNotes</string>
+    <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
+    <string name="enter_first_name">ਪਹਿਲਾ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_last_name">ਆਖਰੀ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="photo">Photo</string>
+    <string name="create_your_notes_anywhere">ਕਿਤੇ ਵੀ ਆਪਣੇ ਨੋਟਸ ਬਣਾਓ</string>
+    <string name="share">ਸ਼ੇਅਰ ਕਰੋ</string>
+    <string name="add_image">ਚਿੱਤਰ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="enable_fingerprint">ਫਿੰਗਰਪ੍ਰਿੰਟ ਚਾਲੂ ਕਰੋ</string>
+    <string name="set_password_for_your_app">ਸੁਰੱਖਿਆ</string>
+    <string name="change_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="hello" translatable="false">HELLO</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
+    <string name="restart">ਰੀਸਟਾਰਟ ਕਰੋ</string>
+    <string name="Hi">ਹੈਲੋ</string>
+    <string name="tip_keep_your_fingerprint_protective_shield_onn_to_protect_your_notes">ਟਿਪ:- ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੁਰੱਖਿਆ ਢਾਲ ਨੂੰ ਸਰਗਰਮ ਕਰੋ, ਤੁਹਾਡੇ ਤੋਂ ਇਲਾਵਾ ਕੋਈ ਵੀ ਤੁਹਾਡੇ ਨੋਟਸ ਤੱਕ ਪਹੁੰਚ ਨਾ ਕਰ ਸਕੇ।</string>
+    <string name="tip_after_change_the_language_of_app_language_will_automatically_set_in_the_whole_app">ਸੁਝਾਅ:- ਐਪ ਦੀ ਭਾਸ਼ਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ। ਪੂਰੀ ਐਪ ਵਿੱਚ ਭਾਸ਼ਾ ਆਪਣੇ ਆਪ ਸੈੱਟ ਹੋ ਜਾਵੇਗੀ</string>
+    <string name="tip_after_change_your_language_please_restart_app">ਸੁਝਾਅ:- ਆਪਣੀ ਭਾਸ਼ਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਰੀਸਟਾਰਟ ਕਰੋ</string>
+    <string name="user">ਉਪਭੋਗਤਾ</string>
+    <string name="sign_up_to_your_account">ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਸਾਈਨ ਅੱਪ ਕਰੋ</string>
+    <string name="save_changes">ਸੇਵ ਕਰੋ</string>
+    <string name="hi_there">ਸਤ ਸ੍ਰੀ ਅਕਾਲ !!!</string>
+    <string name="search_your_note">ਆਪਣਾ ਨੋਟ ਖੋਜੋ</string>
+    <string name="update_note">ਅੱਪਡੇਟ ਨੋਟ</string>
+    <string name="setting">ਸੈਟਿੰਗ</string>
+    <string name="splash_screen">ਸਪਲੈਸ਼ ਸਕਰੀਨ</string>
+    <string name="user_profile">ਯੂਜ਼ਰ ਪ੍ਰੋਫ਼ਾਈਲ</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.ਜੇਕਰ ਤੁਸੀਂ ਆਪਣੀ ਡਿਵਾਈਸ ਥੀਮ ਨੂੰ ਬਦਲਦੇ ਹੋ ਤਾਂ ਐਪ ਆਪਣੇ ਆਪ ਉਸ ਅਨੁਸਾਰ ਬਦਲ ਜਾਵੇਗਾ।</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2. ਜੇਕਰ ਤੁਸੀਂ ਮਾਈਕ੍ਰੋਫੋਨ ਵਰਗੇ ਹੇਠਲੇ ਨੈਵੀਗੇਸ਼ਨ ਦ੍ਰਿਸ਼ ਦੇ ਭਾਗਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਉਹਨਾਂ ਤੇ ਡਬਲ ਟੈਪ ਕਰੋ।</string>
+    <string name="to_delete_your_note_just_swipe_them">3. ਆਪਣੇ ਨੋਟ ਨੂੰ ਮਿਟਾਉਣ ਲਈ ਉਹਨਾਂ ਨੂੰ ਸਵਾਈਪ ਕਰੋ।</string>
+    <string name="you_can_swipe_notes_with_each_other">4.ਤੁਸੀਂ ਇੱਕ ਦੂਜੇ ਨਾਲ ਨੋਟ ਸਵਾਈਪ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5. ਆਪਣੀ ਐਪ ਨੂੰ ਸੁਰੱਖਿਅਤ ਬਣਾਉਣ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਪ੍ਰਮਾਣੀਕਰਨ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ।</string>
+    <string name="you_can_change_the_language_of_app">6.ਤੁਸੀਂ ਐਪ ਦੀ ਭਾਸ਼ਾ ਬਦਲ ਸਕਦੇ ਹੋ।</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7. ਤੁਸੀਂ ਨੋਟ ਦਾ ਵੇਰਵਾ ਜੋੜਨ ਲਈ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="developer_contact">ਵਿਕਾਸਕਾਰ ਸੰਪਰਕ</string>
+    <string name="version">ਸੰਸਕਰਣ 5.0.1</string>
+    <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">ਇਹ ਇੱਕ ਸ਼ਾਨਦਾਰ ਨੋਟ ਲੈਣ ਵਾਲੀ ਐਪਲੀਕੇਸ਼ਨ ਹੈ ਜੋ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਉਹਨਾਂ ਦੇ ਨੋਟ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗੀ।</string>
+    <string name="for_any_query_and_suggestions_do_message_me">ਕਿਸੇ ਵੀ ਸਵਾਲ ਅਤੇ ਸੁਝਾਵਾਂ ਲਈ ਮੈਨੂੰ ਸੁਨੇਹਾ ਭੇਜੋ.</string>
+    <string name="contact_us">ਮੇਰੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8. ਸਕ੍ਰੀਨ ਰੋਟੇਸ਼ਨ ਤੇ ਤੁਸੀਂ ਸਾਰੇ ਭਾਗਾਂ ਨੂੰ ਦੇਖਣ ਲਈ ਹੇਠਾਂ ਸਕ੍ਰੋਲ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="privacy_policy">ਪਰਾਈਵੇਟ ਨੀਤੀ</string>
+    <string name="rate_us">ਸਾਨੂੰ ਦਰਜਾ ਦਿਓ</string>
+    <string name="english">ਅੰਗਰੇਜ਼ੀ</string>
+    <string name="hindi">ਹਿੰਦੀ</string>
+    <string name="share_us">ਸਾਡੇ ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="marathi">ਮਰਾਠੀ</string>
+    <string name="bengali">ਬੰਗਾਲੀ</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="tamil">ਤਾਮਿਲ</string>
+    <string name="telugu">ਤੇਲਗੂ</string>
+    <string name="malayalam">ਮਲਿਆਲਮ</string>
+    <string name="urdu">ਉਰਦੂ</string>
+    <string name="after_language_change_app_will_automatically_restart">ਭਾਸ਼ਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਐਪ ਆਪਣੇ ਆਪ ਰੀਸਟਾਰਟ ਹੋ ਜਾਵੇਗੀ</string>
+    <string name="add_remainder">Add Remainder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+
+</resources>

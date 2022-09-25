@@ -8,7 +8,7 @@
 
             </solid>
 
-            <size android:height="50dp" >
+            <size android:height="50dp">
 
             </size>
 
@@ -27,7 +27,7 @@
 
             </solid>
 
-            <size android:height="50dp" >
+            <size android:height="50dp">
 
             </size>
 
@@ -38,8 +38,6 @@
         </shape>
 
     </item>
-
-
 
 
 </selector>

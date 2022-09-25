@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">குறிப்புகள்</string>
+    <string name="enter_note_title">குறிப்பு தலைப்பை உள்ளிடவும்</string>
+    <string name="enter_note_description">குறிப்பு விளக்கத்தை உள்ளிடவும்</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="save">சேமிக்கவும்</string>
+    <string name="add_new_note">புதிய குறிப்பைச் சேர்க்கவும்</string>
+    <string name="textview">உரை பார்வை</string>
+    <string name="home">வீடு</string>
+    <string name="note">குறிப்பு</string>
+    <string name="screenshot">ScreenShot</string>
+    <string name="voice">குரல்</string>
+    <string name="search">Search</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="add">கூட்டு</string>
+    <string name="general">பொது</string>
+    <string name="notes">குறிப்புகள்</string>
+    <string name="digilocker">DigiLocker</string>
+    <string name="likenotes">likeNotes</string>
+    <string name="features">அம்சங்கள்</string>
+    <string name="about_us">எங்களை பற்றி</string>
+    <string name="take_your_notes_with_you">Take Your Notes With You</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="snotes">குறிப்புகள்</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="welcome_to_snotes">Welcome To SNotes</string>
+    <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
+    <string name="enter_first_name">முதல் பெயரை உள்ளிடவும்</string>
+    <string name="enter_last_name">கடைசி பெயரை உள்ளிடவும்</string>
+    <string name="photo">Photo</string>
+    <string name="create_your_notes_anywhere">உங்கள் குறிப்புகளை எங்கும் உருவாக்கவும்</string>
+    <string name="share">பகிர்</string>
+    <string name="add_image">படத்தைச் சேர்க்கவும்</string>
+    <string name="enable_fingerprint">கைரேகையை இயக்கு</string>
+    <string name="set_password_for_your_app">பாதுகாப்பு</string>
+    <string name="change_language">மொழியை தேர்ந்தெடுங்கள்</string>
+    <string name="hello" translatable="false">HELLO</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
+    <string name="restart">மறுதொடக்கம்</string>
+    <string name="Hi">வணக்கம்</string>
+    <string name="tip_keep_your_fingerprint_protective_shield_onn_to_protect_your_notes">உதவிக்குறிப்பு :- உங்களைத் தவிர வேறு யாரும் உங்கள் குறிப்புகளை அணுக முடியாது என்பதை உறுதிப்படுத்த கைரேகை பாதுகாப்புக் கவசத்தை இயக்கவும்.</string>
+    <string name="tip_after_change_the_language_of_app_language_will_automatically_set_in_the_whole_app">உதவிக்குறிப்பு:- பயன்பாட்டின் மொழியை மாற்றிய பிறகு. முழு ஆப்ஸிலும் மொழி தானாகவே அமைக்கப்படும்</string>
+    <string name="tip_after_change_your_language_please_restart_app">உதவிக்குறிப்பு:- உங்கள் மொழியை மாற்றிய பிறகு, பயன்பாட்டை மறுதொடக்கம் செய்யவும்</string>
+    <string name="user">பயனர்</string>
+    <string name="sign_up_to_your_account">உங்கள் கணக்கில் பதிவு செய்யவும்</string>
+    <string name="save_changes">சேமிக்கவும்</string>
+    <string name="hi_there">வணக்கம் !!!</string>
+    <string name="search_your_note">உங்கள் குறிப்பைத் தேடுங்கள்</string>
+    <string name="update_note">புதுப்பிப்பு குறிப்பு</string>
+    <string name="setting">அமைத்தல்</string>
+    <string name="splash_screen">திரை</string>
+    <string name="user_profile">பயனர் சுயவிவரம்</string>
+    <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.உங்கள் சாதனத்தின் தீம் ஆப்ஸை மாற்றினால் அதற்கேற்ப தானாகவே மாறும்.</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2. மைக்ரோஃபோன், ஹோம் போன்ற கீழ் வழிசெலுத்தல் காட்சியின் கூறுகளை நீங்கள் அணுக விரும்பினால், அவற்றை இருமுறை தட்டவும்.</string>
+    <string name="to_delete_your_note_just_swipe_them">3.உங்கள் குறிப்பை நீக்க, அவற்றை ஸ்வைப் செய்யவும்.</string>
+    <string name="you_can_swipe_notes_with_each_other">4.நீங்கள் குறிப்புகளை ஒன்றோடொன்று ஸ்வைப் செய்யலாம்.</string>
+    <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.உங்கள் பயன்பாட்டைப் பாதுகாப்பானதாக்க, கைரேகை அங்கீகாரத்தை இயக்கவும்.</string>
+    <string name="you_can_change_the_language_of_app">6.நீங்கள் பயன்பாட்டின் மொழியை மாற்றலாம்.</string>
+    <string name="you_can_use_microphone_to_add_description_of_note">7.குறிப்பின் விளக்கத்தைச் சேர்க்க மைக்ரோஃபோனைப் பயன்படுத்தலாம்.</string>
+    <string name="developer_contact">டெவலப்பர் தொடர்பு</string>
+    <string name="version">பதிப்பு 5.0.1</string>
+    <string name="hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes">இது ஒரு அற்புதமான குறிப்பு எடுக்கும் பயன்பாடாகும், இது பயனர்கள் தங்கள் குறிப்புகளை உருவாக்க உதவும்.</string>
+    <string name="for_any_query_and_suggestions_do_message_me">ஏதேனும் கேள்விகள் மற்றும் பரிந்துரைகளுக்கு எனக்கு செய்தி அனுப்பவும்.</string>
+    <string name="contact_us">என்னை தொடர்பு கொள்</string>
+    <string name="on_screen_rotation_you_can_scroll_down_to_see_all_components">8.திரை சுழற்சியில் நீங்கள் அனைத்து கூறுகளையும் பார்க்க கீழே உருட்டலாம்.</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="rate_us">எங்களை மதிப்பிடு</string>
+    <string name="english">ஆங்கிலம்</string>
+    <string name="hindi">ஹிந்தி</string>
+    <string name="share_us">எங்களைப் பகிரவும்</string>
+    <string name="marathi">மராத்தி</string>
+    <string name="bengali">பெங்காலி</string>
+    <string name="punjabi">பஞ்சாபி</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="telugu">தெலுங்கு</string>
+    <string name="malayalam">மலையாளம்</string>
+    <string name="urdu">உருது</string>
+    <string name="after_language_change_app_will_automatically_restart">மொழி மாற்றத்திற்குப் பிறகு, பயன்பாடு தானாகவே மறுதொடக்கம் செய்யப்படும்</string>
+    <string name="add_remainder">Add Remainder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+
+</resources>

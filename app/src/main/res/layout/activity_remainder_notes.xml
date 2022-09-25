@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/remainderAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/remainderToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/toolBackgroundColor">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/remainderSearchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remainderAppBar"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/noteBackgroundColor"
+        app:iconifiedByDefault="false"
+        app:queryHint="@string/search_your_note">
+
+
+    </androidx.appcompat.widget.SearchView>
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remainderAppBar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/remainderRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/remainderSearchBar"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        tools:listitem="@layout/note_item" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/remainderNewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="33dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="bottom"
+        app:borderWidth="0dp"
+        android:elevation="@dimen/_20sdp"
+        android:shadowColor="@color/background_color"
+        android:text="@string/add_new_note"
+        app:icon="@drawable/ic_baseline_add_24"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

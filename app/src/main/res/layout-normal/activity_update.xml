@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:orientation="vertical"
-    tools:context=".UpdateActivity"
     android:background="@color/background_color"
     android:fitsSystemWindows="false"
-    android:scrollbars="vertical">
-
-
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="my.app.snotes.UpdateActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,37 +20,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:scrollbars="vertical"
-            android:scrollbarAlwaysDrawVerticalTrack="true">
-
-
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical">
 
             <EditText
                 android:id="@+id/updateTextTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoSizeTextType="uniform"
                 android:ems="10"
                 android:hint="@string/enter_note_title"
                 android:inputType="textPersonName"
-                android:textSize="25sp"
-                android:autoSizeTextType="uniform"
                 android:textColor="@color/headerTextColor"
-                android:layout_marginBottom="10dp"
-                android:textStyle="bold"
-                />
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/updateTextDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
                 android:ems="10"
                 android:gravity="start|top"
-                android:autoSizeTextType="uniform"
                 android:hint="@string/enter_note_description"
                 android:inputType="textMultiLine"
                 android:minHeight="48dp"
-                android:textColor="@color/headerTextColor"
-                android:scrollbars="vertical" />
+                android:scrollbars="vertical"
+                android:textColor="@color/headerTextColor" />
 
             <ImageView
                 android:id="@+id/updateImageNote"
@@ -61,22 +55,10 @@
                 android:layout_height="400dp"
                 android:layout_marginTop="20dp"
                 android:scaleType="centerCrop">
+
             </ImageView>
-
-
-
-
         </LinearLayout>
     </ScrollView>
-
-
-
-
-
-
-
-
-
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
@@ -84,6 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         app:fabCradleMargin="10dp"
+        app:hideOnScroll="true"
         app:fabCradleRoundedCornerRadius="20dp"
         app:fabCradleVerticalOffset="10dp">
 
@@ -92,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
-            android:background="@android:color/transparent"
+            app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"            android:background="@android:color/transparent"
             app:menu="@menu/bottom_navigation" />
     </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -105,8 +88,4 @@
         app:tint="@color/white">
 
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
-
-
-
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="my.app.snotes.Remainders">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="">
+            <EditText
+                android:id="@+id/URemainderTitle"
+                android:padding="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autoSizeMaxTextSize="@dimen/_100sdp"
+                android:autoSizeMinTextSize="@dimen/_10sdp"
+                android:autoSizeTextType="uniform"
+                android:ems="10"
+                android:hint="@string/enter_note_title"
+                android:inputType="textMultiLine"
+                android:textColor="@color/headerTextColor"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/URemainderDescription"
+                android:padding="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/enter_note_description"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textColor="@color/headerTextColor" />
+
+            <TextView
+                android:id="@+id/URemainder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_margin="@dimen/_15sdp"
+                android:padding="@dimen/_5sdp"
+                android:gravity="center"
+                android:backgroundTint="@color/background_color"
+                android:background="@drawable/alarm"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:hint="@string/add_remainder"
+                app:drawableStartCompat="@drawable/ic_baseline_calendar_month_24">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/URemainderImage"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop">
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/UBottomRemainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="20dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:hideOnScroll="true">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/URemainderBottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            app:menu="@menu/bottom_navigation" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/URemainderSaveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_done_24"
+        app:layout_anchor="@id/UBottomRemainder"
+        app:tint="@color/white">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+

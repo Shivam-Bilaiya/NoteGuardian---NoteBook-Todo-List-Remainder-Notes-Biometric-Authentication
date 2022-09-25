@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="background_color">#121212</color>
-    <color name="text_color">#C0C0C0</color>
+    <color name="text_color">#FFFFFF</color>
     <color name="headerTextColor">#ffffff</color>
     <color name="noteBackgroundColor">#323232</color>
     <color name="toolBackgroundColor">#323232</color>
     <color name="navigationViewColor">#333131</color>
     <color name="enableFingerprint">#FFFFFF</color>
-    <color name="restartBtn">#101820FF</color>
+    <color name="restartBtn">#cc6600</color>
+    <color name="progressbar">#ffffff</color>
+    <color name="color1">#31AEE4</color>
+    <color name="color2">#FFEB3B</color>
+    <color name="color3">#4CAF50</color>
+    <color name="color4">#03A6A6</color>
+    <color name="color5">#D0E3FF</color>
+
+
+
+
 </resources>

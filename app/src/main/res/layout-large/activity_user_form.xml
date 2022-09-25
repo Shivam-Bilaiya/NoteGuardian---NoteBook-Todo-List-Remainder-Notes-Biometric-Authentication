@@ -4,15 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserFragment"
+    tools:context="my.app.snotes.UserFragment"
     android:id="@+id/constraintLayout">
-
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-
         <EditText
             android:id="@+id/uFname"
             android:layout_width="match_parent"
@@ -22,6 +18,8 @@
             android:layout_marginEnd="20dp"
             android:ems="10"
             android:hint="@string/enter_first_name"
+            android:background="@drawable/roundedtext"
+            android:padding="@dimen/_8sdp"
             android:inputType="textPersonName"
             android:textColor="@color/headerTextColor"
             android:textColorHighlight="#302727"
@@ -30,7 +28,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/signUp"
             tools:ignore="TouchTargetSizeCheck" />
-
         <EditText
             android:id="@+id/uLname"
             android:layout_width="match_parent"
@@ -41,6 +38,8 @@
             android:ems="10"
             android:textColor="@color/headerTextColor"
             android:hint="@string/enter_last_name"
+            android:background="@drawable/roundedtext"
+            android:padding="@dimen/_8sdp"
             android:inputType="textPersonName"
             android:textColorHighlight="#302727"
             app:layout_constraintEnd_toEndOf="parent"
@@ -48,9 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/uFname"
             tools:ignore="TouchTargetSizeCheck" >
-
         </EditText>
-
         <Button
             android:id="@+id/screenLockBtn"
             android:layout_width="wrap_content"
@@ -65,7 +62,6 @@
             app:layout_constraintHorizontal_bias="0.398"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/uLname" />
-
         <TextView
             android:id="@+id/signUp"
             android:layout_width="wrap_content"
@@ -75,13 +71,12 @@
             android:layout_marginEnd="47dp"
             android:text="@string/sign_up_to_your_account"
             android:textColor="@color/headerTextColor"
-            android:textSize="22sp"
+            android:textSize="@dimen/_18sdp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="200dp"
@@ -94,10 +89,5 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/snotesicon" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
 </ScrollView>
