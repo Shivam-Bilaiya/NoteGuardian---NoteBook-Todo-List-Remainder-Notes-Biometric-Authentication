@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context="my.app.snotes.Setting">
+    tools:context="com.alphacreators.noteguardian.SETTING.Setting">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,7 +26,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
         <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/fingerprintBtn"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:layout_marginEnd="28dp"
@@ -49,10 +49,28 @@
             android:text="@string/change_language"
             android:textColor="@color/headerTextColor"
             android:textSize="40sp"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="27dp"
+            android:background="@color/background_color"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_baseline_expand_circle_down_24">
+
+        </ImageView>
         <TextView
             android:id="@+id/textView4"
             android:layout_width="590dp"
@@ -99,5 +117,54 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             app:layout_constraintGuide_end="391dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/textView4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="39dp"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/addToGoogleCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="end"
+                android:text="@string/add_to_google_calendar"
+                android:textColor="@color/headerTextColor"
+                android:textSize="40sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switchCompat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="29dp"
+                android:thumb="@drawable/big_thumb"
+                app:showText="true"
+                app:track="@drawable/big_tail">
+
+            </androidx.appcompat.widget.SwitchCompat>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addToGoogleCalendar"
+                android:text="@string/add_date_and_time_to_google_calendar"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/text_color"
+                android:textSize="25sp">
+
+            </TextView>
+
+        </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

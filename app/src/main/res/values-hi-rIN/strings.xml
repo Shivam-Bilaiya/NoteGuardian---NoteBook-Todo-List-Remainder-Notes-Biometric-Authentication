@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">लेख लेना</string>
-    <string name="enter_note_title">नोट शीर्षक दर्ज करें</string>
-    <string name="enter_note_description">नोट विवरण दर्ज करें</string>
+    <string name="enter_note_title">शीर्षक</string>
+    <string name="enter_note_description">विवरण</string>
     <string name="cancel">रद्द करना</string>
     <string name="save">बचाना</string>
     <string name="add_new_note">नया नोट जोड़ें</string>
@@ -51,7 +51,7 @@
     <string name="splash_screen">स्प्लैश स्क्रीन</string>
     <string name="user_profile">उपयोगकर्ता रूपरेखा</string>
     <string name="if_you_change_your_device_theme_app_will_automatically_change_accordingly">1.यदि आप अपना डिवाइस थीम बदलते हैं तो ऐप अपने आप तदनुसार बदल जाएगा|</string>
-    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.यदि आप माइक्रोफ़ोन,होम जैसे निचले नेविगेशन दृश्य के घटकों का उपयोग करना चाहते हैं,तो कृपया उन पर दो बार टैप करे|</string>
+    <string name="if_you_want_to_access_components_of_bottom_navigation_view_like_microphone_home_please_double_tap_on_them">2.आप शेष नोट की तिथि और समय को Google कैलेंडर से लिंक कर सकते हैं|</string>
     <string name="to_delete_your_note_just_swipe_them">3.अपना नोट हटाने के लिए बस उन्हें स्वाइप करें|</string>
     <string name="you_can_swipe_notes_with_each_other">4.आप एक दूसरे के साथ नोट स्वाइप कर सकते हैं|</string>
     <string name="to_make_your_app_secure_please_enable_fingerprint_authentication">5.अपने ऐप को सुरक्षित बनाने के लिए कृपया फ़िंगरप्रिंट प्रमाणीकरण सक्षम करें|</string>
@@ -76,10 +76,79 @@
     <string name="urdu">उर्दू</string>
     <string name="share">शेयर करना</string>
     <string name="after_language_change_app_will_automatically_restart">भाषा बदलने के बाद ऐप अपने आप फिर से चालू हो जाएगा</string>
-    <string name="add_remainder">Add Remainder</string>
+    <string name="add_remainder">शेष जोड़ें</string>
     <string name="pin_unpin">Pin/Unpin</string>
-    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
-    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+    <string name="it_s_time_to_plan_your_day">यह आपके कल की योजना बनाने का समय है</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">अपने दिन की योजना बनाने की एक अच्छी आदत बनाएं ताकि आप कोई भी कार्य मिस न करें</string>
+    <string name="add_new_task">नया कार्य जोड़ें</string>
+    <string name="todo_list">जांच सूची</string>
+    <string name="action_settings">हमारे बारे में</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">अगला</string>
+    <string name="previous">पिछला</string>
+    <string name="tv_title">शीर्षक</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_todo_hint">जैसे, रात के खाने में कम खाना</string>
+    <string name="today_calendar_button">आज</string>
+    <string name="due_date_text">नियत तारीख</string>
+    <string name="today">आज</string>
+    <string name="tomorrow">कल का दिन</string>
+    <string name="this_wknd">इस सप्ताहांत</string>
+    <string name="next_week">अगले सप्ताह</string>
+    <string name="radio_high">उच्च</string>
+    <string name="radio_med">मध्यम</string>
+    <string name="radio_low">कम</string>
+    <string name="colors">रंग</string>
+    <string name="add_to_google_calendar">गूगल कैलेंडर में जोड़ें</string>
+    <string name="add_date_and_time_to_google_calendar">गूगल कैलेंडर में दिनांक और समय जोड़ें</string>
+    <string name="want_to_delete_this_note">इस नोट को हटाना चाहते हैं ?</string>
+    <string name="alert">चेतावनी !!</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="for_future_task_you_can_set_remainders_so_that_you_will_not_forget_your_important_task">9.भविष्य के कार्य के लिए आप शेषफलों को सेट कर सकते हैं ताकि आप अपने महत्वपूर्ण कार्य को न भूलें।</string>
+    <string name="you_can_create_a_checklist_for_your_daily_task">10.भविष्य के कार्य के लिए आप शेषफलों को सेट कर सकते हैं ताकि आप अपने महत्वपूर्ण कार्य को न भूलें।</string>
+    <string name="you_can_change_the_background_color_of_note">11.आप नोट का बैकग्राउंड कलर बदल सकते हैं।</string>
+    <string name="you_can_mark_note_as_like_or_dislike">12.आप नोट को पसंद या नापसंद के रूप में चिह्नित कर सकते हैं।</string>
+    <string name="all_fields_are_required">सभी फ़ील्ड आवश्यक हैं</string>
+    <string name="dislike_note">नापसंद नोट</string>
+    <string name="task_is_completed">कार्य पूरा हो गया</string>
+    <string name="please_add_task">कृपया कार्य जोड़ें</string>
+    <string name="please_select_date">कृपया दिनांक चुनें</string>
+    <string name="app_update_successfully">ऐप अपडेट सफलतापूर्वक</string>
+    <string name="no_biometric_features_available_on_this_device">इस डिवाइस पर कोई बायोमेट्रिक सुविधा उपलब्ध नहीं है|</string>
+    <string name="biometric_features_are_currently_unavailable">बायोमेट्रिक सुविधाएँ वर्तमान में उपलब्ध नहीं हैं।</string>
+    <string name="enroll_a_fingerprint_to_make_secure_your_app">अपने ऐप को सुरक्षित बनाने के लिए फिंगरप्रिंट नामांकित करें</string>
+    <string name="please_assign_a_fingerprint_to_keep_secure_app">कृपया ऐप को सुरक्षित रखने के लिए एक फिंगरप्रिंट निर्दिष्ट करें</string>
+    <string name="please_add_remainder_date">कृपया शेष तिथि जोड़ें</string>
+    <string name="sort_notes">नोट्स क्रमबद्ध करें</string>
+    <string name="sort_notes_by_date">नोट्स को तिथि के अनुसार क्रमबद्ध करें</string>
+    <string name="sort_notes_by_priority">नोट्स को प्राथमिकता के आधार पर क्रमबद्ध करें</string>
+    <string name="sort_your_notes">अपने नोट्स क्रमबद्ध करें</string>
+    <string name="by_favorite">पसंदीदा द्वारा</string>
+    <string name="back_button">पिछला बटन</string>
+    <string name="delete_all_notes">सभी नोट हटाएँ</string>
+    <string name="recycle_notes">नोट्स को रीसायकल करें</string>
+    <string name="drawing">चित्रकला</string>
+    <string name="_5">5</string>
+    <string name="eraser">रबड़</string>
+    <string name="undo">पूर्ववत</string>
+    <string name="color_picker">रंग चुनने वाली मशीन</string>
+    <string name="note_image">नोट छवि</string>
+    <string name="drawing_note">ड्राइंग नोट</string>
+    <string name="Update">अद्यतन</string>
+    <string name="add_user_image">उपयोगकर्ता छवि जोड़ें</string>
+    <string name="let_s_begin">चलो शुरू करें</string>
+    <string name="hi">"नमस्ते "</string>
+    <string name="pinnedNote">पिन किया गया नोट</string>
+    <string name="unpinnedNote">पिन नहीं किया गया नोट</string>
+    <string name="empty">खाली</string>
+    <string name="unempty">अखाली</string>
+    <string name="delete_Image">छवि हटाएँ</string>
+    <string name="Are_you_sure_to_delete_image">क्या आप निश्चित रूप से छवि हटाना चाहते हैं?</string>
+    <string name="assamese">Assamese</string>
+    <string name="turkish">Turkish</string>
+    <string name="russian">Russian</string>
+    <string name="japanese">Japanese</string>
 
 
 </resources>

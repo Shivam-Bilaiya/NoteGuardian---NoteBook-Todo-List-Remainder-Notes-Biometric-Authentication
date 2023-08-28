@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context="my.app.snotes.Features">
+    tools:context="com.alphacreators.noteguardian.FEATURES.Features">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -75,5 +75,43 @@
             android:layout_margin="10dp"
             android:text="@string/on_screen_rotation_you_can_scroll_down_to_see_all_components"
             android:textColor="@color/headerTextColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/headerTextColor"
+            android:layout_margin="10dp"
+            android:text="@string/for_future_task_you_can_set_remainders_so_that_you_will_not_forget_your_important_task">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/you_can_create_a_checklist_for_your_daily_task"
+            android:textColor="@color/headerTextColor"
+            style="@android:style/TextAppearance.DeviceDefault.Medium">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/you_can_change_the_background_color_of_note"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/headerTextColor">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/headerTextColor"
+            android:text="@string/you_can_mark_note_as_like_or_dislike">
+
+        </TextView>
+
     </LinearLayout>
 </ScrollView>

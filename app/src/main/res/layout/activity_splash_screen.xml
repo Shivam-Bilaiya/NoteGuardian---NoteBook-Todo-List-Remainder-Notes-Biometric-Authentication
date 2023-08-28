@@ -5,54 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context="my.app.snotes.UserFragment">
+    tools:context="com.alphacreators.noteguardian.USER.UserFragment">
 
     <ImageView
         android:id="@+id/myImage"
         android:layout_width="@dimen/_110sdp"
         android:layout_height="@dimen/_110sdp"
-        android:layout_marginTop="52dp"
         android:background="@drawable/round_image"
         android:clipToOutline="true"
         android:src="@drawable/snotesicon"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
         tools:targetApi="s" />
 
-    <TextView
-        android:id="@+id/firstHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:fontFamily="@font/arbutus_slab"
-        android:text="@string/snotes"
-        android:textSize="@dimen/_38sdp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myImage" />
-    <TextView
-        android:id="@+id/secondHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="@string/create_your_notes_anywhere"
-        android:textSize="@dimen/_16sdp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="@font/arbutus_slab"/>
-
-    <com.github.ybq.android.spinkit.SpinKitView
-        android:id="@+id/progressbar"
-        style="@style/SpinKitView.Large.Circle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:SpinKit_Color="#C0C0C0"
-        app:layout_constraintBottom_toTopOf="@+id/secondHeading"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstHeading"
-        app:layout_constraintVertical_bias="0.443" />
 </androidx.constraintlayout.widget.ConstraintLayout>

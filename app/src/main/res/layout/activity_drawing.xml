@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#ffffff"
+    android:background="@color/drawingActivityBackgroundColor"
+    android:id="@+id/relativeLayout"
+    style="@style/Theme.NoteTaking.Color"
+    tools:context=".DRAWING.DrawingActivity">
+
+
+
+    <com.kyanogen.signatureview.SignatureView
+        xmlns:sign="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signature_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sign:penSize="5dp"
+        sign:backgroundColor="#ffffff"
+        sign:penColor="#000000"
+        sign:enableSignature="true"
+        android:layout_above="@id/optionsLayout"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/optionsLayout"
+        android:background="#d3d3d3"
+        android:layout_alignParentBottom="true">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_4sdp"
+            android:layout_gravity="center_vertical">
+            
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/penSize"
+                android:layout_weight="1">
+            </androidx.appcompat.widget.AppCompatSeekBar>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/penSizeText"
+                android:text="@string/_5">
+            </com.google.android.material.textview.MaterialTextView>
+
+            
+            
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_4sdp"
+            android:gravity="end">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/eraser"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/eraser"
+                android:layout_centerVertical="true"
+                android:background="#d3d3d3"
+                android:scaleType="centerCrop"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/eraser">
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/undo"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/undo"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:background="#d3d3d3"
+                android:layout_toEndOf="@id/eraser"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:contentDescription="@string/undo">
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:id="@+id/redo"
+                android:src="@drawable/redo"
+                android:scaleType="centerCrop"
+                android:layout_toEndOf="@id/undo"
+                android:layout_centerVertical="true"
+               android:layout_marginStart="@dimen/_12sdp"
+                android:background="#d3d3d3">
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/colorPickerImage"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/redo"
+                android:background="#d3d3d3"
+                android:contentDescription="@string/color_picker"
+                android:scaleType="centerCrop"
+                android:src="@drawable/color_wheel"
+                android:layout_marginStart="@dimen/_12sdp">
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/saveDraw"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/arrow"
+                android:scaleType="centerCrop"
+                android:background="#d3d3d3"
+                android:layout_toEndOf="@id/colorPickerImage"
+                android:contentDescription="@string/save"
+                android:layout_marginStart="@dimen/_12sdp">
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

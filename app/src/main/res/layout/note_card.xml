@@ -5,21 +5,40 @@
     android:layout_height="wrap_content"
     android:clipToPadding="false"
     android:layout_margin="5dp"
-    app:cardCornerRadius="@dimen/_15sdp"
+    app:cardCornerRadius="@dimen/_8sdp"
     app:cardElevation="@dimen/_30sdp"
     android:id="@+id/RCardView">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/RLayout"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/RCardViewImage"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="fitXY">
-        </ImageView>
+            android:orientation="vertical"
+            android:id="@+id/noteImageLayout">
+
+            <ImageView
+                android:id="@+id/RCardViewImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/note_image">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:id="@+id/RCardViewDrawImage"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/drawing">
+            </ImageView>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,8 +59,7 @@
                 android:layout_marginStart="@dimen/_5sdp"
                 android:text="@string/textview"
                 android:textColor="@color/headerTextColor"
-                android:textSize="23sp"
-                android:textStyle="bold" />
+                android:textSize="23sp" />
 
 
 
@@ -58,40 +76,65 @@
                 android:textColor="@color/headerTextColor"
                 android:textSize="18sp" />
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="@dimen/_10sdp">
-
-                <!--                <ImageView-->
-                <!--                    android:layout_width="@dimen/_20sdp"-->
-                <!--                    android:layout_height="@dimen/_20sdp"-->
-                <!--                    android:src="@drawable/pin"-->
-                <!--                    android:scaleType="fitXY"-->
-                <!--                    android:id="@+id/pinned">-->
-                <!--                </ImageView>-->
+                android:id="@+id/cardRelative">
 
                 <TextView
                     android:id="@+id/RDateTime"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="2dp"
-                    android:autoSizeTextType="uniform"
-                    android:ellipsize="marquee"
-                    android:gravity="end"
-                    android:singleLine="true"
-                    android:marqueeRepeatLimit="marquee_forever"
-                    android:scrollHorizontally="true"
-                    android:text=""
-                    android:layout_marginEnd="@dimen/_6sdp"
-                    android:textColor="@color/text_color"
-                    android:textSize="10sp">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/due_date_text"
+                    android:textColor="@color/text_color">
 
                 </TextView>
 
-            </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/RCardFavouriteNote"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_alignParentEnd="true"
+                    android:clickable="true">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/RCardPinNote"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_toStartOf="@id/RCardFavouriteNote"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:clickable="true">
+                </ImageView>
+
+                <RadioButton
+                    android:id="@+id/RNotePriorityRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/RCardPinNote"
+                    android:checked="true"
+                    android:layout_marginEnd="@dimen/_5sdp">
+                </RadioButton>
+
+            </RelativeLayout>
+
+
 
 
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="by_favorite">By Favorite</string>
+    <string name="back_button">back button</string>
+    <string name="delete_all_notes">Delete All Notes</string>
+    <string name="recycle_notes">Recycle Notes</string>
+    <string name="drawing">Drawing</string>
+    <string name="_5">5</string>
+    <string name="eraser">eraser</string>
+    <string name="undo">undo</string>
+    <string name="color_picker">color picker</string>
+    <string name="note_image">note image</string>
+    <string name="drawing_note">drawing note</string>
+    <string name="Update">Update</string>
+    <string name="add_user_image">Add User Image</string>
+    <string name="let_s_begin">Let\'s Begin</string>
+    <string name="hi">"Hi "</string>
+    <string name="pinnedNote">Pinned Note</string>
+    <string name="unpinnedNote">UnPinned Note</string>
+    <string name="empty">Empty</string>
+    <string name="unempty" />
+    <string name="delete_Image">Delete Image</string>
+    <string name="Are_you_sure_to_delete_image">Are you sure to delete image</string>
+    <string name="assamese">Assamese</string>
+    <string name="turkish">Turkish</string>
+    <string name="russian">Russian</string>
+    <string name="japanese">Japanese</string>
+</resources>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">గమనికలు</string>
-    <string name="enter_note_title">గమనిక శీర్షికను నమోదు చేయండి</string>
-    <string name="enter_note_description">గమనిక వివరణను నమోదు చేయండి</string>
+    <string name="enter_note_title">శీర్షిక</string>
+    <string name="enter_note_description">వివరణ</string>
     <string name="cancel">రద్దు చేయండి</string>
     <string name="save">సేవ్ చేయండి</string>
     <string name="add_new_note">కొత్త గమనికను జోడించండి</string>
@@ -80,9 +80,79 @@
     <string name="malayalam">మలయాళం</string>
     <string name="urdu">ఉర్దూ</string>
     <string name="after_language_change_app_will_automatically_restart">భాష మార్చిన తర్వాత యాప్ ఆటోమేటిక్‌గా రీస్టార్ట్ అవుతుంది</string>
-    <string name="add_remainder">Add Remainder</string>
+    <string name="add_remainder">మిగిలిన వాటిని జోడించండి</string>
     <string name="pin_unpin">Pin/Unpin</string>
-    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
-    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+    <string name="it_s_time_to_plan_your_day">ఇది మీ రేపటిని ప్లాన్ చేసుకునే సమయం</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">మీరు ఏ పనిని కోల్పోకుండా ఉండటానికి మీ రోజును ప్లాన్ చేసుకోవడం మంచి అలవాటు చేసుకోండి</string>
+    <string name="add_new_task">కొత్త టాస్క్‌ని జోడించండి</string>
+    <string name="todo_list">చేయవలసిన పనుల జాబితా</string>
+    <string name="action_settings">మా గురించి</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">తరువాత</string>
+    <string name="previous">మునుపటి</string>
+    <string name="tv_title">శీర్షిక</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_todo_hint">ఉదా., రాత్రి భోజనంలో తక్కువ తినండి</string>
+    <string name="today_calendar_button">ఈరోజు</string>
+    <string name="due_date_text">గడువు తేది</string>
+    <string name="today">ఈరోజు</string>
+    <string name="tomorrow">రేపు</string>
+    <string name="this_wknd">ఈ వారంతం</string>
+    <string name="next_week">వచ్చే వారం</string>
+    <string name="radio_high">అధిక</string>
+    <string name="radio_med">మధ్యస్థం</string>
+    <string name="radio_low">తక్కువ</string>
+    <string name="colors">రంగులు</string>
+    <string name="add_to_google_calendar">గూగుల్ క్యాలెండర్‌కు జోడించండి</string>
+    <string name="add_date_and_time_to_google_calendar">గూగుల్ క్యాలెండర్‌కు తేదీ మరియు సమయాన్ని జోడించండి</string>
+    <string name="want_to_delete_this_note">ఈ గమనికను తొలగించాలనుకుంటున్నాను ?</string>
+    <string name="alert">హెచ్చరిక !!</string>
+    <string name="yes">అవును</string>
+    <string name="no">నం</string>
+    <string name="for_future_task_you_can_set_remainders_so_that_you_will_not_forget_your_important_task">9.భవిష్యత్ పని కోసం మీరు మీ ముఖ్యమైన పనిని మరచిపోకుండా మిగిలిన వాటిని సెట్ చేయవచ్చు.</string>
+    <string name="you_can_create_a_checklist_for_your_daily_task">10.మీరు మీ రోజువారీ పని కోసం చెక్‌లిస్ట్‌ను సృష్టించవచ్చు.</string>
+    <string name="you_can_change_the_background_color_of_note">11.మీరు గమనిక యొక్క నేపథ్య రంగును మార్చవచ్చు.</string>
+    <string name="you_can_mark_note_as_like_or_dislike">12.మీరు గమనికను ఇష్టపడినట్లు లేదా అయిష్టంగా గుర్తించవచ్చు.</string>
+    <string name="all_fields_are_required">అన్ని ఖాళీలు పూరించవలెను</string>
+    <string name="dislike_note">నచ్చని గమనిక</string>
+    <string name="task_is_completed">పని పూర్తయింది</string>
+    <string name="please_add_task">దయచేసి విధిని జోడించండి</string>
+    <string name="please_select_date">దయచేసి తేదీని ఎంచుకోండి</string>
+    <string name="app_update_successfully">యాప్ అప్‌డేట్ విజయవంతంగా</string>
+    <string name="no_biometric_features_available_on_this_device">ఈ పరికరంలో బయోమెట్రిక్ ఫీచర్‌లు ఏవీ అందుబాటులో లేవు.</string>
+    <string name="biometric_features_are_currently_unavailable">Biometric features are currently unavailable.</string>
+    <string name="enroll_a_fingerprint_to_make_secure_your_app">మీ యాప్‌ను సురక్షితంగా ఉంచడానికి వేలిముద్రను నమోదు చేయండి.</string>
+    <string name="please_assign_a_fingerprint_to_keep_secure_app">దయచేసి మీ యాప్‌ను సురక్షితంగా ఉంచడానికి వేలిముద్రను కేటాయించండి.</string>
+    <string name="please_add_remainder_date">దయచేసి మిగిలిన తేదీని జోడించండి.</string>
+    <string name="sort_notes">గమనికలను క్రమబద్ధీకరించండి.</string>
+    <string name="sort_notes_by_date">తేదీ వారీగా గమనికలను క్రమబద్ధీకరించండి.</string>
+    <string name="sort_notes_by_priority">ప్రాధాన్యత ప్రకారం గమనికలను క్రమబద్ధీకరించండి.</string>
+    <string name="sort_your_notes">మీ గమనికలను క్రమబద్ధీకరించండి.</string>
+    <string name="by_favorite">ఇష్టమైన ద్వారా.</string>
+    <string name="back_button">వెనుక బటన్.</string>
+    <string name="delete_all_notes">అన్ని గమనికలను తొలగించండి.</string>
+    <string name="recycle_notes">గమనికలను రీసైకిల్ చేయండి.</string>
+    <string name="drawing">డ్రాయింగ్</string>
+    <string name="_5">5.</string>
+    <string name="eraser">రబ్బరు.</string>
+    <string name="undo">అన్డు</string>
+    <string name="color_picker">రంగు పికర్.</string>
+    <string name="note_image">గమనిక చిత్రం.</string>
+    <string name="drawing_note">డ్రాయింగ్ నోట్.</string>
+    <string name="Update">నవీకరించు.</string>
+    <string name="add_user_image">వినియోగదారు చిత్రాన్ని జోడించండి.</string>
+    <string name="let_s_begin">ప్రారంభిద్దాం</string>
+    <string name="hi">హాయ్</string>
+    <string name="pinnedNote">పిన్ చేసిన గమనిక</string>
+    <string name="unpinnedNote">పిన్ చేయని గమనిక</string>
+    <string name="empty">ఖాళీ</string>
+    <string name="unempty">ఖాళీ లేదు</string>
+    <string name="delete_Image">చిత్రాన్ని తొలగించండి</string>
+    <string name="Are_you_sure_to_delete_image">మీరు ఖచ్చితంగా చిత్రాన్ని తొలగించాలనుకుంటున్నారా</string>
+    <string name="assamese">Assamese</string>
+    <string name="turkish">Turkish</string>
+    <string name="russian">Russian</string>
+    <string name="japanese">Japanese</string>
+
 
 </resources>

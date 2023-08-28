@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="my.app.snotes">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+    </uses-permission>
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES">
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO">
+    </uses-permission>
 
     <application
         android:allowBackup="true"
@@ -17,71 +20,98 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NoteTaking">
         <activity
-            android:name=".UpdateRemainder"
-            android:exported="false" />
+            android:name=".DRAWING.UpdateDrawingActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
-            android:name=".RemainderNotes"
+            android:name=".DRAWING.DrawingActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TODO.AllTodoTask"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".NOTES.MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
-            android:name=".Remainders"
+            android:name=".REMAINDERNOTES.UpdateRemainder"
             android:exported="false"
-            android:parentActivityName=".RemainderNotes" />
+            android:parentActivityName=".REMAINDERNOTES.RemainderNotes" />
         <activity
-            android:name=".Developer"
+            android:name=".REMAINDERNOTES.RemainderNotes"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".NOTES.MainActivity"
+            android:theme="@style/Theme.Todoister.NoActionBar"/>
         <activity
-            android:name=".Features"
+            android:name=".REMAINDERNOTES.Remainders"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".REMAINDERNOTES.RemainderNotes" />
         <activity
-            android:name=".screenLock"
+            android:name=".DEVELOPER.Developer"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".NOTES.MainActivity" />
         <activity
-            android:name=".UserForm"
-            android:exported="false" />
-        <activity
-            android:name=".Setting"
+            android:name=".FEATURES.Features"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".NOTES.MainActivity" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".USER.screenLock"
+            android:exported="false"
+            android:parentActivityName=".NOTES.MainActivity" />
+        <activity
+            android:name=".USER.UserForm"
+            android:exported="false"
+            android:parentActivityName=".NOTES.MainActivity" />
+        <activity
+            android:name=".SETTING.Setting"
+            android:exported="true"
+            android:parentActivityName=".NOTES.MainActivity">
+        </activity>
+        <activity
+            android:name=".SPLASHSCREEN.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".UpdateActivity"
+            android:name=".NOTES.UpdateActivity"
             android:exported="true"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".NOTES.MainActivity"
             android:requestLegacyExternalStorage="true"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".AddNoteActivity"
+            android:name=".NOTES.AddNoteActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".NOTES.MainActivity"
             android:requestLegacyExternalStorage="true"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".MainActivity"
+            android:name=".NOTES.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
 
         <receiver
-            android:name=".AlarmNotification"
+            android:name=".NOTIFICATION.AlarmNotification"
             android:enabled="true"
             android:permission="TODO" />
-
-      <receiver android:name=".MyAlarmReceiver"
-          android:enabled="true"
-          android:permission="TODO">
-
-      </receiver>
+        <receiver
+            android:name=".NOTIFICATION.MyAlarmReceiver"
+            android:enabled="true"
+            android:permission="TODO" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -23,6 +23,18 @@
         android:title="@string/malayalam">
     </item>
     <item android:id="@+id/item9"
+        android:title="@string/assamese">
+    </item>
+    <item android:id="@+id/item10"
+        android:title="@string/turkish">
+    </item>
+    <item android:id="@+id/item11"
+        android:title="@string/russian">
+    </item>
+    <item android:id="@+id/item12"
+        android:title="@string/japanese">
+    </item>
+    <item android:id="@+id/item13"
         android:title="@string/urdu">
     </item>
 </menu>

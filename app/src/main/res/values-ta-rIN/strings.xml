@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">குறிப்புகள்</string>
-    <string name="enter_note_title">குறிப்பு தலைப்பை உள்ளிடவும்</string>
-    <string name="enter_note_description">குறிப்பு விளக்கத்தை உள்ளிடவும்</string>
+    <string name="enter_note_title">தலைப்பு</string>
+    <string name="enter_note_description">விளக்கம்</string>
     <string name="cancel">ரத்து செய்</string>
     <string name="save">சேமிக்கவும்</string>
     <string name="add_new_note">புதிய குறிப்பைச் சேர்க்கவும்</string>
@@ -80,9 +80,79 @@
     <string name="malayalam">மலையாளம்</string>
     <string name="urdu">உருது</string>
     <string name="after_language_change_app_will_automatically_restart">மொழி மாற்றத்திற்குப் பிறகு, பயன்பாடு தானாகவே மறுதொடக்கம் செய்யப்படும்</string>
-    <string name="add_remainder">Add Remainder</string>
+    <string name="add_remainder">மீதியைச் சேர்க்கவும்</string>
     <string name="pin_unpin">Pin/Unpin</string>
-    <string name="it_s_time_to_plan_your_day">It\'s time to plan your day</string>
-    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">Making a good habit of planing your day so that you will not miss any task</string>
+    <string name="it_s_time_to_plan_your_day">உங்கள் நாளை திட்டமிடுவதற்கான நேரம் இது</string>
+    <string name="making_a_good_habit_of_planing_your_day_so_that_you_will_not_miss_any_task">நீங்கள் எந்த வேலையையும் தவறவிடாமல் இருக்க உங்கள் நாளைத் திட்டமிடுவதை ஒரு நல்ல பழக்கமாக வைத்துக் கொள்ளுங்கள்</string>
+    <string name="add_new_task">புதிய பணியைச் சேர்க்கவும்</string>
+    <string name="todo_list">டோடோ பட்டியல்</string>
+    <string name="action_settings">எங்களை பற்றி</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">அடுத்தது</string>
+    <string name="previous">முந்தைய</string>
+    <string name="tv_title">தலைப்பு</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_todo_hint">எ.கா., இரவு உணவில் குறைவாக சாப்பிடுங்கள்</string>
+    <string name="today_calendar_button">இன்று</string>
+    <string name="due_date_text">இறுதி தேதி</string>
+    <string name="today">இன்று</string>
+    <string name="tomorrow">நாளை</string>
+    <string name="this_wknd">இந்த வார இறுதி</string>
+    <string name="next_week">அடுத்த வாரம்</string>
+    <string name="radio_high">உயர்</string>
+    <string name="radio_med">நடுத்தர</string>
+    <string name="radio_low">குறைந்த</string>
+    <string name="colors">வண்ணங்கள்</string>
+    <string name="add_to_google_calendar">கூகுள் காலெண்டரில் சேர்</string>
+    <string name="add_date_and_time_to_google_calendar">கூகுள் காலெண்டரில் தேதி மற்றும் நேரத்தைச் சேர்க்கவும்</string>
+    <string name="want_to_delete_this_note">இந்தக் குறிப்பை நீக்க வேண்டும் ?</string>
+    <string name="alert">எச்சரிக்கை !!</string>
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    <string name="for_future_task_you_can_set_remainders_so_that_you_will_not_forget_your_important_task">9.எதிர்கால பணிக்காக, உங்கள் முக்கியமான பணியை நீங்கள் மறக்க மாட்டீர்கள் என்று மீதமுள்ளவற்றை அமைக்கலாம்.</string>
+    <string name="you_can_create_a_checklist_for_your_daily_task">10.உங்கள் தினசரி பணிக்கான சரிபார்ப்பு பட்டியலை நீங்கள் உருவாக்கலாம்.</string>
+    <string name="you_can_change_the_background_color_of_note">11.நீங்கள் குறிப்பை விரும்பு அல்லது பிடிக்கவில்லை எனக் குறிக்கலாம்.</string>
+    <string name="you_can_mark_note_as_like_or_dislike">12.நீங்கள் குறிப்பை விரும்பு அல்லது பிடிக்கவில்லை எனக் குறிக்கலாம்.</string>
+    <string name="all_fields_are_required">அனைத்து புலங்களும் தேவை</string>
+    <string name="dislike_note">பிடிக்காத குறிப்பு</string>
+    <string name="task_is_completed">பணி முடிந்தது</string>
+    <string name="please_add_task">பணியைச் சேர்க்கவும்</string>
+    <string name="please_select_date">தயவுசெய்து தேதியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="app_update_successfully">ஆப்ஸ் புதுப்பிக்கப்பட்டது</string>
+    <string name="no_biometric_features_available_on_this_device">இந்தச் சாதனத்தில் பயோமெட்ரிக் அம்சங்கள் எதுவும் இல்லை.</string>
+    <string name="biometric_features_are_currently_unavailable">பயோமெட்ரிக் அம்சங்கள் தற்போது கிடைக்கவில்லை.</string>
+    <string name="enroll_a_fingerprint_to_make_secure_your_app">உங்கள் பயன்பாட்டைப் பாதுகாக்க கைரேகையைப் பதிவு செய்யவும்</string>
+    <string name="please_assign_a_fingerprint_to_keep_secure_app">பயன்பாட்டைப் பாதுகாப்பாக வைத்திருக்க கைரேகையை ஒதுக்கவும்</string>
+    <string name="please_add_remainder_date">மீதமுள்ள தேதியைச் சேர்க்கவும்</string>
+    <string name="sort_notes">குறிப்புகளை வரிசைப்படுத்தவும்</string>
+    <string name="sort_notes_by_date">குறிப்புகளை தேதி வாரியாக வரிசைப்படுத்தவும்</string>
+    <string name="sort_notes_by_priority">குறிப்புகளை முன்னுரிமை அடிப்படையில் வரிசைப்படுத்தவும்</string>
+    <string name="sort_your_notes">உங்கள் குறிப்புகளை வரிசைப்படுத்தவும்</string>
+    <string name="by_favorite">பிடித்தவை மூலம்</string>
+    <string name="back_button">பின் பொத்தான்</string>
+    <string name="delete_all_notes">அனைத்து குறிப்புகளையும் நீக்கு</string>
+    <string name="recycle_notes">மறுசுழற்சி குறிப்புகள்</string>
+    <string name="drawing">வரைதல்</string>
+    <string name="_5">5</string>
+    <string name="eraser">அழிப்பான்</string>
+    <string name="undo">செயல்தவிர்</string>
+    <string name="color_picker">வண்ண தெரிவு</string>
+    <string name="note_image">குறிப்பு படம்</string>
+    <string name="drawing_note">வரைதல் குறிப்பு</string>
+    <string name="Update">புதுப்பிக்கவும்</string>
+    <string name="add_user_image">பயனர் படத்தைச் சேர்க்கவும்</string>
+    <string name="let_s_begin">ஆரம்பித்துவிடுவோம்</string>
+    <string name="hi">"வணக்கம் "</string>
+    <string name="pinnedNote">கைகொட்டிய குறிப்பு</string>
+    <string name="unpinnedNote">கைகொட்டாத குறிப்பு</string>
+    <string name="empty">காலியாக</string>
+    <string name="unempty">காலியாக இல்லை</string>
+    <string name="delete_Image">படத்தை நீக்கு</string>
+    <string name="Are_you_sure_to_delete_image">படத்தை நீக்குவது உறுதி</string>
+    <string name="assamese">Assamese</string>
+    <string name="turkish">Turkish</string>
+    <string name="russian">Russian</string>
+    <string name="japanese">Japanese</string>
+
 
 </resources>

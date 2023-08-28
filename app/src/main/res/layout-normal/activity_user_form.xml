@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="my.app.snotes.UserFragment"
+    tools:context="com.alphacreators.noteguardian.USER.UserFragment"
     android:id="@+id/constraintLayout">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
             android:hint="@string/enter_first_name"
             android:inputType="textPersonName"
             android:padding="@dimen/_8sdp"
+            android:textColorHint="@color/text_color"
             android:textColor="@color/headerTextColor"
             android:textColorHighlight="#302727"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +42,7 @@
             android:textColor="@color/headerTextColor"
             android:hint="@string/enter_last_name"
             android:inputType="textPersonName"
+            android:textColorHint="@color/text_color"
             android:background="@drawable/roundedtext"
             android:padding="@dimen/_8sdp"
             android:textColorHighlight="#302727"
@@ -66,29 +68,40 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/uLname" />
 
+
         <TextView
             android:id="@+id/signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="47dp"
+            android:layout_marginTop="68dp"
             android:text="@string/sign_up_to_your_account"
             android:textColor="@color/headerTextColor"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintHorizontal_bias="0.148"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+            app:layout_constraintTop_toBottomOf="@+id/imageCardView" />
 
-        <ImageView
-            android:id="@+id/imageView4"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/imageCardView"
             android:layout_width="@dimen/_150sdp"
             android:layout_height="@dimen/_150sdp"
-            android:layout_marginTop="48dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="@dimen/_30sdp"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/snotesicon" />
+            android:layout_marginTop="48dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/snotesicon"
+                android:background="@drawable/rounded"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

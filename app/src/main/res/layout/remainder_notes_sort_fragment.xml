@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323232">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_rounded_corner"
+        android:backgroundTint="#323232"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/remainder_HorizontalLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_horizontal_rule_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.constraintlayout.utils.widget.ImageFilterView>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/remainder_materialTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_your_notes"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="#f5f5f5"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remainder_HorizontalLine">
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/remainder_sortNotesByDateRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/remainder_sortNotesDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/remainder_sortNotesDate"
+            app:layout_constraintVertical_bias="0.529"
+            style="@style/CustomRadioButtonStyle">
+
+        </com.google.android.material.radiobutton.MaterialRadioButton>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/remainder_sortNotesDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/sort_notes_by_date"
+            android:textColor="#f5f5f5"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/remainder_sortNotesByDateRadioButton"
+            app:layout_constraintTop_toBottomOf="@+id/remainder_materialTextView2" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/remainder_sortNotesByPriorityRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/sortNotesPriority"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/sortNotesPriority"
+            app:layout_constraintVertical_bias="0.411"
+            style="@style/CustomRadioButtonStyle"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/sortNotesPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/sort_notes_by_priority"
+            android:textColor="#f5f5f5"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/remainder_sortNotesByPriorityRadioButton"
+            app:layout_constraintTop_toBottomOf="@+id/remainder_sortNotesDate">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/remainder_sortNotesByFavoriteRadioButton"
+            style="@style/CustomRadioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/remainder_materialTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/remainder_materialTextView" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/remainder_materialTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/by_favorite"
+            android:textColor="#f5f5f5"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/remainder_sortNotesByFavoriteRadioButton"
+            app:layout_constraintTop_toBottomOf="@+id/sortNotesPriority" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

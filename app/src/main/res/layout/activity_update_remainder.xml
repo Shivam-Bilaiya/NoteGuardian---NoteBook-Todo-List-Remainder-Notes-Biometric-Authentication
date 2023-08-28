@@ -4,74 +4,191 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@color/noteBackgroundColor"
     android:orientation="vertical"
-    tools:context="my.app.snotes.Remainders">
+    tools:context="com.alphacreators.noteguardian.REMAINDERNOTES.Remainders"
+    android:id="@+id/URemainderLayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/URBackImage"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:backgroundTint="@color/iconbackgroundColor"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/ic_baseline_arrow_back_24">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/dislike"
+            android:id="@+id/URFavouriteNote"
+            android:clickable="true">
+        </ImageView>
+        <ImageView
+            android:id="@+id/URPinNote"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@id/URFavouriteNote"
+            android:clickable="true"
+            android:contentDescription="@string/pin_unpin"
+            android:src="@drawable/pin">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/URDrawingNote"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@id/URPinNote"
+            android:clickable="true"
+            android:contentDescription="@string/drawing"
+            android:src="@drawable/color_palette">
+        </ImageView>
+    </RelativeLayout>
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_40sdp"
         android:scrollbars="vertical"
+        android:id="@+id/URScrollView"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="">
+
+            <ImageView
+                android:id="@+id/URemainderImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/UDrawImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY">
+            </ImageView>
             <EditText
                 android:id="@+id/URemainderTitle"
                 android:padding="@dimen/_10sdp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
-                android:autoSizeMaxTextSize="@dimen/_100sdp"
-                android:autoSizeMinTextSize="@dimen/_10sdp"
-                android:autoSizeTextType="uniform"
+                android:textSize="@dimen/_16sdp"
                 android:ems="10"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/hintTextColor"
                 android:hint="@string/enter_note_title"
                 android:inputType="textMultiLine"
-                android:textColor="@color/headerTextColor"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:background="@color/noteBackgroundColor"
+                android:textColor="@color/headerTextColor" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp">
+
+                <RadioGroup
+                    android:id="@+id/URNoteRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_group_background"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/URNoteRadioButtonHigh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/holo_red_dark"
+                        android:paddingEnd="10dp"
+                        android:text="@string/radio_high"
+                        android:textColor="#B2EBF2" />
+
+                    <RadioButton
+                        android:id="@+id/URNoteRadioButtonMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_med"
+                        android:paddingEnd="10dp"
+                        android:background="#FFFF00"/>
+
+                    <RadioButton
+                        android:id="@+id/URNoteRadioButtonLow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#0000FF"
+                        android:paddingEnd="10dp"
+                        android:text="@string/radio_low"
+                        android:textColor="#B0BEC5" />
+                </RadioGroup>
+
+            </com.google.android.material.card.MaterialCardView>
+
             <EditText
                 android:id="@+id/URemainderDescription"
                 android:padding="@dimen/_10sdp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:ems="10"
                 android:gravity="start|top"
+                android:textColorHint="@color/hintTextColor"
                 android:hint="@string/enter_note_description"
                 android:inputType="textMultiLine"
                 android:minHeight="48dp"
+                android:textSize="@dimen/_16sdp"
+                android:layout_margin="10dp"
+                android:background="@color/noteBackgroundColor"
                 android:textColor="@color/headerTextColor" />
 
             <TextView
                 android:id="@+id/URemainder"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_margin="@dimen/_15sdp"
                 android:padding="@dimen/_5sdp"
                 android:gravity="center"
-                android:backgroundTint="@color/background_color"
-                android:background="@drawable/alarm"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold"
+                android:background="@color/noteBackgroundColor"
+                android:textSize="@dimen/_14sdp"
+                android:autoSizeTextType="uniform"
+                android:textColorHint="@color/hintTextColor"
                 android:textColor="@color/text_color"
                 android:hint="@string/add_remainder"
                 app:drawableStartCompat="@drawable/ic_baseline_calendar_month_24">
 
             </TextView>
 
-            <ImageView
-                android:id="@+id/URemainderImage"
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:layout_marginTop="20dp"
-                android:scaleType="centerCrop">
-            </ImageView>
         </LinearLayout>
     </ScrollView>
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -83,21 +200,23 @@
         app:fabCradleMargin="10dp"
         app:fabCradleRoundedCornerRadius="20dp"
         app:fabCradleVerticalOffset="10dp"
-        app:hideOnScroll="true">
+        app:hideOnScroll="true"
+        android:backgroundTint="@color/background_color">
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/URemainderBottomNavigationView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
-            android:background="@android:color/transparent"
+            android:background="@color/background_color"
             android:clickable="true"
+            app:itemIconTint="@color/iconbackgroundColor"
             app:menu="@menu/bottom_navigation" />
     </com.google.android.material.bottomappbar.BottomAppBar>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/URemainderSaveBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_baseline_done_24"
+        android:src="@drawable/ic_baseline_done_all_24"
         app:layout_anchor="@id/UBottomRemainder"
         app:tint="@color/white">
     </com.google.android.material.floatingactionbutton.FloatingActionButton>

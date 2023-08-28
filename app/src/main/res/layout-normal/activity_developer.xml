@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context="my.app.snotes.MainActivity">
+    tools:context="com.alphacreators.noteguardian.DEVELOPER.Developer">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:padding="8dp"
+            android:textSize="@dimen/_16sdp"
             android:text="@string/hi_there"
             android:textColor="@color/headerTextColor" />
         <TextView
@@ -56,6 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:padding="8dp"
+            android:textSize="@dimen/_16sdp"
             android:text="@string/hi_there_this_is_an_amazing_note_taking_application_which_will_help_users_to_create_their_notes"
             android:textColor="@color/headerTextColor" />
         <TextView
@@ -66,6 +68,7 @@
             android:layout_marginStart="3dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="3dp"
+            android:textSize="@dimen/_13sdp"
             android:gravity="center_horizontal"
             android:text="@string/for_any_query_and_suggestions_do_message_me"
             android:textColor="@color/headerTextColor" />
@@ -80,5 +83,80 @@
             android:backgroundTint="@color/restartBtn"
             android:text="@string/contact_us"
             android:textColor="@color/headerTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical">
+
+            <!-- Line -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#d3d3d3"/>
+
+            <!-- Text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect With Me"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/text_color"
+                android:paddingHorizontal="10dp"/>
+
+            <!-- Line -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#d3d3d3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/linkedin"
+                android:scaleType="fitCenter"
+                android:id="@+id/linkedin"/>
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/instagram"
+                app:tint="#808080"
+                android:id="@+id/instagram"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="centerInside"/>
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/facebook"
+                app:tint="#808080"
+                android:id="@+id/facebook"
+                android:scaleType="centerInside"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
     </LinearLayout>
 </ScrollView>

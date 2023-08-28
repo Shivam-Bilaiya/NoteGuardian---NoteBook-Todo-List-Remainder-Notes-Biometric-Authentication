@@ -5,8 +5,10 @@
     android:id="@+id/drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
-    tools:context="my.app.snotes.MainActivity">
+    android:background="@color/noteBackgroundColor"
+    tools:context="com.alphacreators.noteguardian.NOTES.MainActivity">
+
+
     <include
         layout="@layout/navigation_drawer"
         android:layout_width="match_parent"
@@ -20,6 +22,8 @@
         android:background="@color/background_color"
         app:headerLayout="@layout/header"
         app:itemTextColor="@color/headerTextColor"
+        app:itemIconTint="@color/headerTextColor"
         app:menu="@menu/nav_menu">
     </com.google.android.material.navigation.NavigationView>
+
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -9,13 +9,25 @@
     <color name="enableFingerprint">#FFFFFF</color>
     <color name="restartBtn">#cc6600</color>
     <color name="progressbar">#ffffff</color>
-    <color name="color1">#31AEE4</color>
-    <color name="color2">#FFEB3B</color>
-    <color name="color3">#4CAF50</color>
-    <color name="color4">#03A6A6</color>
-    <color name="color5">#D0E3FF</color>
+    <color name="navigationBar">#616a6b</color>
+    <color name="iconbackgroundColor">#BBC7D5</color>
+    <color name="bottomSheetBackgroundColor">#808080</color>
+    <color name="custom_radio_button_color">#f5f5f5</color>
+    <color name="drawingActivityBackgroundColor">#ffffff</color>
 
 
+    <color name="color1">#eb4034</color>
+    <color name="color2">#ff8000</color>
+    <color name="color3">#0040ff</color>
+    <color name="color4">#00ffff</color>
+    <color name="color5">#660033</color>
+    <color name="color6">#669900</color>
+    <color name="color7">#ffcc66</color>
+    <color name="color8">#cc6699</color>
+    <color name="color9">#663300</color>
+    <color name="color10">#ccffff</color>
+    <color name="color11">#666699</color>
+    <color name="color12">#999966</color>
 
 
 </resources>

@@ -4,91 +4,213 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@color/noteBackgroundColor"
     android:orientation="vertical"
-    tools:context="my.app.snotes.AddNoteActivity">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:scrollbars="vertical">
-        <LinearLayout
+    tools:context="com.alphacreators.noteguardian.NOTES.AddNoteActivity"
+    android:id="@+id/addLayout">
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <ImageView
+              android:id="@+id/backImage"
+              android:layout_width="@dimen/_25sdp"
+              android:layout_height="@dimen/_25sdp"
+              android:layout_marginStart="@dimen/_10sdp"
+              android:layout_marginTop="@dimen/_10sdp"
+              android:layout_marginEnd="@dimen/_10sdp"
+              android:layout_marginBottom="@dimen/_10sdp"
+              android:src="@drawable/ic_baseline_arrow_back_24"
+              android:contentDescription="@string/back_button">
+
+          </ImageView>
+
+          <ImageView
+              android:layout_width="@dimen/_20sdp"
+              android:layout_height="@dimen/_25sdp"
+              android:layout_alignParentEnd="true"
+              android:layout_centerVertical="true"
+              android:layout_marginEnd="10dp"
+              android:src="@drawable/dislike"
+              android:id="@+id/favouriteNote"
+              android:clickable="true"
+              android:contentDescription="@string/by_favorite">
+          </ImageView>
+
+          <ImageView
+              android:id="@+id/pinNote"
+              android:layout_width="@dimen/_20sdp"
+              android:layout_height="@dimen/_25sdp"
+              android:layout_centerVertical="true"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_toStartOf="@id/favouriteNote"
+              android:clickable="true"
+              android:contentDescription="@string/pin_unpin"
+              android:src="@drawable/pin">
+          </ImageView>
+
+          <ImageView
+              android:id="@+id/drawingNote"
+              android:layout_width="@dimen/_20sdp"
+              android:layout_height="@dimen/_25sdp"
+              android:layout_centerVertical="true"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_toStartOf="@id/pinNote"
+              android:clickable="true"
+              android:contentDescription="@string/drawing"
+              android:src="@drawable/color_palette">
+          </ImageView>
+
+      </RelativeLayout>
+
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editTextTitle"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/myScrollView"
+            android:layout_marginTop="@dimen/_40sdp">
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autoSizeMaxTextSize="@dimen/_100sdp"
-                android:autoSizeMinTextSize="@dimen/_10sdp"
-                android:autoSizeTextType="uniform"
-                android:ems="10"
-                android:hint="@string/enter_note_title"
-                android:inputType="textMultiLine"
-                android:textColor="@color/headerTextColor"
-                android:textSize="25sp"
-                android:textStyle="bold" />
-            <EditText
-                android:id="@+id/editTextDescription"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:hint="@string/enter_note_description"
-                android:inputType="textMultiLine"
-                android:minHeight="48dp"
-                android:textColor="@color/headerTextColor" />
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/addImageNote"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:scaleType="centerCrop">
+                <ImageView
+                    android:id="@+id/addImageNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_image"
+                    android:scaleType="fitXY">
+                </ImageView>
 
-            </ImageView>
+                <ImageView
+                    android:id="@+id/drawImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:scaleType="fitXY">
+                </ImageView>
 
-            <com.google.android.material.checkbox.MaterialCheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/add_new_note">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/noteBackgroundColor"
+                    android:hint="@string/enter_note_title"
+                    android:inputType="textMultiLine|textAutoComplete"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/headerTextColor"
+                    android:textColorHint="#546E7A">
+                </com.google.android.material.textfield.TextInputEditText>
 
-            </com.google.android.material.checkbox.MaterialCheckBox>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <RadioGroup
+                        android:id="@+id/noteRadioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/radio_group_background"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/noteRadioButtonHigh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/holo_red_dark"
+                            android:paddingEnd="10dp"
+                            android:text="@string/radio_high"
+                            android:textColor="#B2EBF2" />
+
+                        <RadioButton
+                            android:id="@+id/noteRadioButtonMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/radio_med"
+                            android:paddingEnd="10dp"
+                            android:background="#FFFF00"/>
+
+                        <RadioButton
+                            android:id="@+id/noteRadioButtonLow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#0000FF"
+                            android:paddingEnd="10dp"
+                            android:text="@string/radio_low"
+                            android:textColor="#B0BEC5" />
+                    </RadioGroup>
+
+                </com.google.android.material.card.MaterialCardView>
 
 
-        </LinearLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/noteBackgroundColor"
+                    android:hint="@string/enter_note_description"
+                    android:inputType="textMultiLine|textAutoComplete"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/headerTextColor"
+                    android:textColorHint="#546E7A">
+                </com.google.android.material.textfield.TextInputEditText>
 
 
-    </ScrollView>
+            </LinearLayout>
+        </ScrollView>
+
+
+
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:backgroundTint="@color/background_color"
         android:clickable="true"
         app:fabCradleMargin="10dp"
         app:fabCradleRoundedCornerRadius="20dp"
         app:fabCradleVerticalOffset="10dp"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
         app:hideOnScroll="true">
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
-            android:background="@android:color/transparent"
+            android:background="@color/background_color"
             android:clickable="true"
+            app:itemIconTint="@color/iconbackgroundColor"
             app:menu="@menu/bottom_navigation" />
     </com.google.android.material.bottomappbar.BottomAppBar>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/saveBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_baseline_done_24"
+        android:contentDescription="@string/add_new_note"
+        android:src="@drawable/ic_baseline_done_all_24"
         app:layout_anchor="@id/bottomAppBar"
-        app:tint="@color/white"
-        android:contentDescription="@string/add_new_note">
+        app:tint="@color/white">
+
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
 

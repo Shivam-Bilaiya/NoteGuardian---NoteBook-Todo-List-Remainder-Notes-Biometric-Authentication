@@ -7,6 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="purple">#673AB7</color>
     <color name="white">#FFFFFFFF</color>
+
+
+
     <color name="background_color">#F5F5F5</color>
     <color name="text_color">#121212</color>
     <color name="noteBackgroundColor">#FCF6F5FF</color>
@@ -16,13 +19,26 @@
     <color name="enableFingerprint">#433B3B</color>
     <color name="restartBtn">#F0E1B9FF</color>
     <color name="progressbar">#121212</color>
-    <color name="color1">#31AEE4</color>
-    <color name="color2">#F8CF2C</color>
-    <color name="color3">#4CAF50</color>
-    <color name="color4">#03A6A6</color>
-    <color name="color5">#D0E3FF</color>
+    <color name="navigationBar">#1b4f72</color>
+    <color name="hintTextColor"> #85929e</color>
+    <color name="iconbackgroundColor">#636467</color>
+    <color name="bottomSheetBackgroundColor">#808080</color>
+    <color name="custom_radio_button_color">#f5f5f5</color>
+    <color name="drawingActivityBackgroundColor">#ffffff</color>
 
 
 
+    <color name="color1">#eb4034</color>
+    <color name="color2">#ff8000</color>
+    <color name="color3">#0040ff</color>
+    <color name="color4">#00ffff</color>
+    <color name="color5">#660033</color>
+    <color name="color6">#669900</color>
+    <color name="color7">#ffcc66</color>
+    <color name="color8">#cc6699</color>
+    <color name="color9">#663300</color>
+    <color name="color10">#ccffff</color>
+    <color name="color11">#666699</color>
+    <color name="color12">#999966</color>
 
 </resources>

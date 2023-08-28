@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fadeScrollbars="false"
     android:scrollbarFadeDuration="100"
-    tools:context="my.app.snotes.screenLock">
+    tools:context="com.alphacreators.noteguardian.USER.screenLock">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     android:panelFullBackground="@color/background_color">
-    <item android:title="@string/general">
+    <item android:title="@string/general"
+        android:id="@+id/parent1">
         <menu>
             <item
                 android:id="@+id/userAccount"
@@ -23,6 +24,13 @@
                 android:icon="@drawable/ic_baseline_alarm_add_24"
                 android:title="@string/add_remainder">
             </item>
+
+            <item android:id="@+id/todoActivity"
+                android:title="@string/todo_list"
+                android:icon="@drawable/ic_baseline_check_box_24">
+
+            </item>
+
             <item
                 android:id="@+id/features"
                 android:icon="@drawable/ic_baseline_list_24"
@@ -33,9 +41,12 @@
                 android:icon="@drawable/ic_baseline_settings_24"
                 android:title="@string/settings">
             </item>
+
+
         </menu>
     </item>
-    <item android:title="@string/about_us">
+    <item android:title="@string/about_us"
+        android:id="@+id/parent2">
         <menu>
             <item
                 android:id="@+id/privacy"

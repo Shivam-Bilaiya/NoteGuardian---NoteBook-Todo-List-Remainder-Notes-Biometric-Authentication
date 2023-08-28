@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context="my.app.snotes.Setting">
+    tools:context="com.alphacreators.noteguardian.SETTING.Setting">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/enableFingerprint"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="48dp"
@@ -19,7 +19,6 @@
             android:text="@string/enable_fingerprint"
             android:textColor="@color/headerTextColor"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/fingerprintBtn"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +48,6 @@
             android:text="@string/change_language"
             android:textColor="@color/headerTextColor"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -95,19 +93,20 @@
             app:layout_constraintBottom_toTopOf="@+id/changeLanguage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/enableFingerprint" />
+
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_end="391dp" />
+            app:layout_constraintGuide_begin="21dp" />
 
         <ImageView
             android:id="@+id/down"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
-            android:layout_marginEnd="172dp"
+            android:layout_marginEnd="52dp"
             android:layout_marginBottom="27dp"
             android:background="@color/background_color"
             android:scaleType="center"
@@ -115,7 +114,54 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24" />
+            app:srcCompat="@drawable/ic_baseline_expand_circle_down_24" />
+
+        <TextView
+            android:id="@+id/addToGoogleCalendar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/add_to_google_calendar"
+            android:textColor="@color/headerTextColor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/switchCompat"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView4">
+
+        </TextView>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="24dp"
+            android:thumb="@drawable/thump_part_of_switch_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:showText="true"
+            app:track="@drawable/track_part_of_switch_button">
+
+        </androidx.appcompat.widget.SwitchCompat>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addToGoogleCalendar"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/add_date_and_time_to_google_calendar"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addToGoogleCalendar">
+
+        </TextView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
