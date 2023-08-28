@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">എസ് നോട്ടുകൾ</string>
+    <string name="app_name">നോട്ട് ഗാർഡിയൻ</string>
     <string name="enter_note_title">തലക്കെട്ട്</string>
     <string name="enter_note_description">വിവരണം</string>
     <string name="cancel">റദ്ദാക്കുക</string>

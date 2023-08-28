@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SNotes</string>
+    <string name="app_name">Note Guardian</string>
     <string name="enter_note_title">Title</string>
     <string name="enter_note_description">Description</string>
     <string name="cancel">Cancel</string>
@@ -24,7 +24,7 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="snotes">SNOTES</string>
+    <string name="snotes">Note Guardian</string>
     <string name="enter_date_of_birth" translatable="false">Enter Date Of Birth</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="welcome_to_snotes" translatable="false">Welcome To SNotes</string>

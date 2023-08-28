@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SNotes</string>
+    <string name="app_name">টোকা গাৰ্ডিয়ান</string>
     <string name="enter_note_title">শিৰোনাম</string>
     <string name="enter_note_description">বিৱৰণ</string>
     <string name="cancel">বাতিল</string>
@@ -23,7 +23,7 @@
     <string name="take_your_notes_with_you">আপোনাৰ নোটসমূহ সৈতে নাওয়া লৈ যাওঁক</string>
     <string name="open">খোলক</string>
     <string name="close">বন্ধ কৰক</string>
-    <string name="snotes">SNOTES</string>
+    <string name="snotes">টোকা গাৰ্ডিয়ান</string>
     <string name="enter_date_of_birth" translatable="false">জন্মৰ তাৰিখ দিয়ক</string>
     <string name="enter_your_name">আপোনাৰ নাম দিয়ক</string>
     <string name="welcome_to_snotes" translatable="false">SNotes-লৈ স্বাগতম</string>

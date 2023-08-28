@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">स्नोट्स</string>
+    <string name="app_name">नोट गार्डियन</string>
     <string name="enter_note_title">टीप शीर्षक प्रविष्ट करा</string>
     <string name="enter_note_description">टीप वर्णन प्रविष्ट करा</string>
     <string name="cancel">रद्द करा</string>
@@ -24,7 +24,7 @@
     <string name="open">उघडा</string>
     <string name="close">बंद</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="snotes">स्नोट्स</string>
+    <string name="snotes">नोट गार्डियन</string>
     <string name="enter_your_name">आपले नांव लिहा</string>
     <string name="let_s_get_started" translatable="false"><![CDATA[Let\'s Get Started ->]]></string>
     <string name="enter_first_name">प्रथम नाव प्रविष्ट करा</string>

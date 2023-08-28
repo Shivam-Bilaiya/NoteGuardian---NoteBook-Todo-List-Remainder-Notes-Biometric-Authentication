@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">గమనికలు</string>
+    <string name="app_name">నోట్ గార్డియన్</string>
     <string name="enter_note_title">శీర్షిక</string>
     <string name="enter_note_description">వివరణ</string>
     <string name="cancel">రద్దు చేయండి</string>
@@ -24,7 +24,7 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="snotes">గమనికలు</string>
+    <string name="snotes">నోట్ గార్డియన్</string>
     <string name="enter_date_of_birth">Enter Date Of Birth</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="welcome_to_snotes">Welcome To SNotes</string>

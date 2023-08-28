@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- values-ru/strings.xml -->
-    <string name="app_name">Заметки</string>
+    <string name="app_name">Примечание Хранитель</string>
     <string name="enter_note_title">Заголовок</string>
     <string name="enter_note_description">Описание</string>
     <string name="cancel">Отмена</string>
@@ -25,7 +25,7 @@
     <string name="open">Открыть</string>
     <string name="close">Закрыть</string>
     <!-- values-ru/strings.xml -->
-    <string name="snotes">SNOTES</string>
+    <string name="snotes">Примечание Хранитель</string>
     <string name="enter_date_of_birth" translatable="false">Введите дату рождения</string>
     <string name="enter_your_name">Введите ваше имя</string>
     <string name="welcome_to_snotes" translatable="false">Добро пожаловать в SNotes</string>

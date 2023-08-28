@@ -467,7 +467,7 @@ public class AddNoteActivity extends AppCompatActivity {
                 window = AddNoteActivity.this.getWindow();
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-                window.setStatusBarColor(ContextCompat.getColor(AddNoteActivity.this, R.color.toolBackgroundColor));
+                window.setStatusBarColor(ContextCompat.getColor(AddNoteActivity.this, R.color.background_color));
                 break;
 
 

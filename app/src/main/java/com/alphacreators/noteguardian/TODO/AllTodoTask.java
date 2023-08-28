@@ -133,32 +133,17 @@ public class AllTodoTask extends AppCompatActivity implements onTodoClickListene
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(AllTodoTask.this);
-
-                // Set the message show for the Alert time
                 builder.setMessage(R.string.want_to_delete_this_note);
-
-
-                // Set Alert Title
                 builder.setTitle(R.string.alert);
-
-                // Set Cancelable false for when the user clicks on the outside the Dialog Box then it will remain show
                 builder.setCancelable(false);
-
-
-                // Set the positive button with yes name Lambda OnClickListener method is use of DialogInterface interface.
                 builder.setPositiveButton(R.string.yes, (DialogInterface.OnClickListener) (dialog, which) -> {
                     NoteViewModel.todoDelete(todoAdapter.getTodoTask(viewHolder.getAdapterPosition()));
                     mediaPlayer.start();
                 });
-
-                // Set the Negative button with No name Lambda OnClickListener method is use of DialogInterface interface.
                 builder.setNegativeButton(R.string.no, (DialogInterface.OnClickListener) (dialog, which) -> {
                     todoAdapter.setTodoNotes(undoDeleteNote);
                 });
-
-                // Create the Alert dialog
                 AlertDialog alertDialog = builder.create();
-                // Show the Alert Dialog box
                 alertDialog.show();
                 Button Yes = alertDialog.getButton(AlertDialog.BUTTON_POSITIVE);
                 Yes.setTextColor(getResources().getColor(R.color.color2,null));
@@ -209,10 +194,7 @@ public class AllTodoTask extends AppCompatActivity implements onTodoClickListene
                 super.onScrollStateChanged(recyclerView, newState);
             }
         });
-
-//        registerActivityForAddTask();
-
-//        registerActivityForUpdateTask();
+;
 
 
     }
@@ -229,31 +211,17 @@ public class AllTodoTask extends AppCompatActivity implements onTodoClickListene
         switch (nightModeFlags) {
             case Configuration.UI_MODE_NIGHT_YES:
                 Window window = AllTodoTask.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
-
-
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
                 window.setStatusBarColor(ContextCompat.getColor(AllTodoTask.this, R.color.background_color));
 
                 break;
 
             case Configuration.UI_MODE_NIGHT_NO:
                 window = AllTodoTask.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
-                window.setStatusBarColor(ContextCompat.getColor(AllTodoTask.this, R.color.toolBackgroundColor));
+                window.setStatusBarColor(ContextCompat.getColor(AllTodoTask.this, R.color.background_color));
                 break;
 
 
@@ -261,47 +229,6 @@ public class AllTodoTask extends AppCompatActivity implements onTodoClickListene
     }
 
 
-//    public void registerActivityForUpdateTask() {
-//        activityResultLauncherForUpdateTask = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
-//            @Override
-//            public void onActivityResult(ActivityResult result) {
-//                int resultCode = result.getResultCode();
-//                Intent data = result.getData();
-//
-//                if (resultCode == RESULT_OK && data != null) {
-//                    String title = data.getStringExtra("titleLast");
-//                    int id = data.getIntExtra("noteId", -1);
-//                    image = data.getByteArrayExtra("image");
-//                    String date = data.getStringExtra("updateCurrentDate");
-//                    TodoTask todoTask = new TodoTask(title,true,date,image);
-//                    todoTask.setTodoId(id);
-//                    todoNoteViewModel.todoUpdate(todoTask);
-//
-//
-//                }
-//            }
-//        });
-//    }
-
-
-//    public void registerActivityForAddTask(){
-//        activityResultLauncherForAddTask = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
-//            @Override
-//            public void onActivityResult(ActivityResult result) {
-//                int resultCode = result.getResultCode();
-//                Intent data = result.getData();
-//
-//                if (resultCode == RESULT_OK && data!=null){
-//                    Intent intent = new Intent();
-//                    String title = intent.getStringExtra("noteTitle");
-//                    String date = intent.getStringExtra("saveNoteDate");
-//                    image = data.getByteArrayExtra("todoImage");
-//                    TodoTask todoTask = new TodoTask(title,false,date,image);
-//                    todoNoteViewModel.todoInsert(todoTask);
-//                }
-//            }
-//        });
-//    }
 
 
     // YE CODE LANGUAGE CHANGE KARNE KE LIYE HAI

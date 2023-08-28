@@ -16,6 +16,8 @@ import androidx.core.content.ContextCompat;
 
 import com.alphacreators.noteguardian.R;
 
+import java.util.Objects;
+
 public class Developer extends AppCompatActivity {
 
     Button button;
@@ -26,7 +28,7 @@ public class Developer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_developer);
 
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.toolBackgroundColor)));
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.toolBackgroundColor,null)));
 
         getSupportActionBar().setTitle(R.string.developer_contact);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -57,7 +59,6 @@ public class Developer extends AppCompatActivity {
             }
         });
 
-        // Set click listener for LinkedIn icon
         linkedin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +66,6 @@ public class Developer extends AppCompatActivity {
             }
         });
 
-        // Set click listener for Instagram icon
         instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,29 +86,17 @@ public class Developer extends AppCompatActivity {
         switch (nightModeFlags) {
             case Configuration.UI_MODE_NIGHT_YES:
                 Window window = Developer.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
                 window.setStatusBarColor(ContextCompat.getColor(Developer.this, R.color.background_color));
 
                 break;
 
             case Configuration.UI_MODE_NIGHT_NO:
                 window = Developer.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
-                window.setStatusBarColor(ContextCompat.getColor(Developer.this, R.color.toolBackgroundColor));
+                window.setStatusBarColor(ContextCompat.getColor(Developer.this, R.color.background_color));
                 break;
         }
     }

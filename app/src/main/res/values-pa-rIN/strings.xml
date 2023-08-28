@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ਸਨੋਟ</string>
+    <string name="app_name">ਨੋਟ ਗਾਰਡੀਅਨ</string>
     <string name="enter_note_title">ਸਿਰਲੇਖ</string>
     <string name="enter_note_description">ਵਰਣਨ</string>
     <string name="cancel">ਰੱਦ ਕਰੋ</string>
@@ -24,7 +24,7 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="snotes">ਸਨੋਟ</string>
+    <string name="snotes">ਨੋਟ ਗਾਰਡੀਅਨ</string>
     <string name="enter_date_of_birth">Enter Date Of Birth</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="welcome_to_snotes">Welcome To SNotes</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">குறிப்புகள்</string>
+    <string name="app_name">குறிப்பு காவலர்</string>
     <string name="enter_note_title">தலைப்பு</string>
     <string name="enter_note_description">விளக்கம்</string>
     <string name="cancel">ரத்து செய்</string>
@@ -24,7 +24,7 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="snotes">குறிப்புகள்</string>
+    <string name="snotes">குறிப்பு காவலர்</string>
     <string name="enter_date_of_birth">Enter Date Of Birth</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="welcome_to_snotes">Welcome To SNotes</string>

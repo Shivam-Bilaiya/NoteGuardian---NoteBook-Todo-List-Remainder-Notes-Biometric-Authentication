@@ -120,29 +120,17 @@ public class SplashScreen extends AppCompatActivity {
         switch (nightModeFlags) {
             case Configuration.UI_MODE_NIGHT_YES:
                 Window window = SplashScreen.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
                 window.setStatusBarColor(ContextCompat.getColor(SplashScreen.this, R.color.background_color));
 
                 break;
 
             case Configuration.UI_MODE_NIGHT_NO:
                 window = SplashScreen.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
-                window.setStatusBarColor(ContextCompat.getColor(SplashScreen.this, R.color.toolBackgroundColor));
+                window.setStatusBarColor(ContextCompat.getColor(SplashScreen.this, R.color.background_color));
                 break;
 
 

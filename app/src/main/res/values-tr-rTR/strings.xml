@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SNotes</string>
+    <string name="app_name">Not Muhafızı</string>
     <string name="enter_note_title">Başlık</string>
     <string name="enter_note_description">Açıklama</string>
     <string name="cancel">İptal</string>
@@ -23,7 +23,7 @@
     <string name="take_your_notes_with_you">Notlarınızı Yanınızda Taşıyın</string>
     <string name="open">Aç</string>
     <string name="close">Kapat</string>
-    <string name="snotes">SNOTES</string>
+    <string name="snotes">Not Muhafızı</string>
     <string name="enter_date_of_birth" translatable="false">Doğum Tarihinizi Girin</string>
     <string name="enter_your_name">Adınızı Girin</string>
     <string name="welcome_to_snotes" translatable="false">SNotes\'a Hoş Geldiniz</string>

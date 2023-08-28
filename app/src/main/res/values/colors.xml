@@ -13,7 +13,7 @@
     <color name="background_color">#F5F5F5</color>
     <color name="text_color">#121212</color>
     <color name="noteBackgroundColor">#FCF6F5FF</color>
-    <color name="toolBackgroundColor">#242B2E</color>
+    <color name="toolBackgroundColor">#25D366</color>
     <color name="navigationViewColor">#F5F5F5</color>
     <color name="headerTextColor">#121212</color>
     <color name="enableFingerprint">#433B3B</color>

@@ -150,29 +150,16 @@ public class Setting extends AppCompatActivity  {
         switch (nightModeFlags) {
             case Configuration.UI_MODE_NIGHT_YES:
                 Window window = Setting.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
                 window.setStatusBarColor(ContextCompat.getColor(Setting.this,R.color.background_color));
-
                 break;
 
             case Configuration.UI_MODE_NIGHT_NO:
                 window = Setting.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
-                window.setStatusBarColor(ContextCompat.getColor(Setting.this,R.color.toolBackgroundColor));
+                window.setStatusBarColor(ContextCompat.getColor(Setting.this,R.color.background_color));
                 break;
 
 
@@ -328,16 +315,11 @@ public class Setting extends AppCompatActivity  {
     private void setLocal(String language) {
         Locale locale = new Locale(language);
         Locale.setDefault(locale);
-
-
         Configuration configuration = new Configuration();
         configuration.locale = locale;
         getBaseContext().getResources().updateConfiguration(configuration,getBaseContext().getResources().getDisplayMetrics());
-
-
         SharedPreferences.Editor editor = getSharedPreferences("Settings",MODE_PRIVATE).edit();
         editor.putString("app_lang",language);
-
         editor.apply();
     }
 
@@ -353,15 +335,9 @@ public class Setting extends AppCompatActivity  {
     public  void setStatusBarColor ()
     {
         Window window = Setting.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
-        window.setStatusBarColor(ContextCompat.getColor(Setting.this,R.color.toolBackgroundColor));
+        window.setStatusBarColor(ContextCompat.getColor(Setting.this,R.color.background_color));
     }
 
 

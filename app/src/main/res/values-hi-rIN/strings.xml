@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">लेख लेना</string>
+    <string name="app_name">नोट गार्डियन</string>
     <string name="enter_note_title">शीर्षक</string>
     <string name="enter_note_description">विवरण</string>
     <string name="cancel">रद्द करना</string>
@@ -23,7 +23,7 @@
     <string name="take_your_notes_with_you">अपने नोट्स अपने साथ ले जाएं</string>
     <string name="open">खुला</string>
     <string name="close">बंद करे</string>
-    <string name="snotes">नोट्स</string>
+    <string name="snotes">नोट गार्डियन</string>
     <string name="enter_date_of_birth">जन्म तारीख दर्ज करें</string>
     <string name="enter_your_name">अपना नाम दर्ज करें</string>
     <string name="welcome_to_snotes">नोट्स में आपका स्वागत है</string>

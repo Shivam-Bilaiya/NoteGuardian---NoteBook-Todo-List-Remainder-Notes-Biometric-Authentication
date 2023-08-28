@@ -31,28 +31,16 @@ public class Features extends AppCompatActivity {
         switch (nightModeFlags) {
             case Configuration.UI_MODE_NIGHT_YES:
                 Window window = Features.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
                 window.setStatusBarColor(ContextCompat.getColor(Features.this, R.color.background_color));
 
                 break;
 
             case Configuration.UI_MODE_NIGHT_NO:
                 window = Features.this.getWindow();
-
-// clear FLAG_TRANSLUCENT_STATUS flag:
                 window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-
-// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
                 window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-
-// finally change the color
                 window.setStatusBarColor(ContextCompat.getColor(Features.this, R.color.toolBackgroundColor));
                 break;
         }
